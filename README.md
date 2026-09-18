@@ -20,24 +20,24 @@
 
 ```text
                 ┌──────────────┐
-                │   Documents  │
+                │    文档输入    │
                 └──────┬───────┘
                        ↓
               ┌─────────────────┐
-              │  DocParserAgent │
+              │   文档解析 Agent  │
               └────────┬────────┘
                        ↓
           ┌─────────────────────────┐
-          │ KnowledgeExtractAgent   │
+          │     知识抽取 Agent        │
           └────────────┬────────────┘
                        ↓
               ┌─────────────────┐
-              │   Vector / BM25 │
+              │  向量库 / BM25   │
               └────────┬────────┘
                        ↓
-User Query → Intent → Rewrite → Retrieve → Rerank → Generate
-                                                   ↓
-                                            Answer + Citations
+用户提问 → 意图识别 → 查询改写 → 检索召回 → 重排序 → 答案生成
+                                                     ↓
+                                              答案 + 引用溯源
 ```
 
 ### Agents
