@@ -1,0 +1,24 @@
+{
+  "A_vector_only": {
+    "exact_n": 36,
+    "exact_answer": 0.6666666666666666,
+    "exact_cite": 1.0,
+    "multi_n": 6,
+    "multi_cover": 1.0,
+    "graph_used": 0.0,
+    "avg_graph_src": 0.0,
+    "avg_chars": 3449.9761904761904,
+    "p50_ms": 3469.219800004794
+  },
+  "B_vector_graph": {
+    "exact_n": 36,
+    "exact_answer": 0.6388888888888888,
+    "exact_cite": 1.0,
+    "multi_n": 6,
+    "multi_cover": 1.0,
+    "graph_used": 0.07142857142857142,
+    "avg_graph_src": 1.3095238095238095,
+    "avg_chars": 3180.714285714286,
+    "p50_ms": 3346.249299996998
+  }
+}

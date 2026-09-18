@@ -1,0 +1,53 @@
+# 直接依赖清单（高层意图）
+#
+# 这是「输入」文件，供 pip-compile / uv 解析出完整锁定文件。
+# 生产构建使用 requirements.lock（含精确版本），不要手工在此追加间接依赖。
+#
+# 生成 / 更新锁定文件：
+#   pip install pip-tools
+#   pip-compile --output-file=requirements.lock requirements.in
+#
+# 需要 hash 级供应链校验时（构建更慢，推荐用于正式生产镜像）：
+#   pip-compile --generate-hashes --output-file=requirements.lock requirements.in
+# 然后 Dockerfile 里的 --require-hashes 分支会自动生效。
+
+# ── Agent 编排 ───────────────────────────────────────────────
+langgraph>=0.3.0
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+
+# ── API 服务 ─────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.18
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.0
+httpx>=0.28.0
+
+# ── 存储 ─────────────────────────────────────────────────────
+# 向量库用嵌入式 Chroma；元数据用标准库 sqlite3。
+chromadb>=0.6.0
+pgvector>=0.3.0
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# ── 文档解析（多模态）────────────────────────────────────────
+# 注意：openpyxl 是 Excel 解析的实际依赖（doc_parser_agent._parse_excel），
+# 原 requirements.txt 漏列 —— 属于潜在运行时 ImportError。
+unstructured>=0.16.0
+pillow>=11.0.0
+pytesseract>=0.3.13
+pdf2image>=1.17.0
+PyPDF2>=3.0.0
+openpyxl>=3.1.5
+
+# ── 工具 ─────────────────────────────────────────────────────
+tiktoken>=0.8.0
+numpy>=1.26.0
+
+# ── 测试 ─────────────────────────────────────────────────────
+pytest>=8.3.0
+pytest-asyncio>=0.25.0

@@ -1,0 +1,51 @@
+[
+  {
+    "idx": 1,
+    "prompt_tokens": 316,
+    "hit": 128,
+    "miss": 188,
+    "completion": 260
+  },
+  {
+    "idx": 3,
+    "prompt_tokens": 302,
+    "hit": 128,
+    "miss": 174,
+    "completion": 310
+  },
+  {
+    "idx": 4,
+    "prompt_tokens": 306,
+    "hit": 128,
+    "miss": 178,
+    "completion": 360
+  },
+  {
+    "idx": 5,
+    "prompt_tokens": 307,
+    "hit": 128,
+    "miss": 179,
+    "completion": 313
+  },
+  {
+    "idx": 6,
+    "prompt_tokens": 301,
+    "hit": 128,
+    "miss": 173,
+    "completion": 287
+  },
+  {
+    "idx": 7,
+    "prompt_tokens": 307,
+    "hit": 128,
+    "miss": 179,
+    "completion": 224
+  },
+  {
+    "idx": 8,
+    "prompt_tokens": 298,
+    "hit": 128,
+    "miss": 170,
+    "completion": 233
+  }
+]

@@ -1,0 +1,54 @@
+{"question": "标准工作时间是几点到几点？", "qtype": "single", "doc_title": "员工考勤管理制度", "section_title": "2. 工作时间", "expected_answer": "标准工作时间为周一至周五 9:00 至 18:00，午休 12:00 至 13:00，每天有效工作 8 小时。", "answerable": true}
+{"question": "员工每年应完成多少学时的培训？", "qtype": "single", "doc_title": "员工培训管理制度", "section_title": "2. 培训体系", "expected_answer": "员工每年应完成不少于 24 学时的培训，其中信息安全培训不少于 4 学时。", "answerable": true}
+{"question": "工资每月几号发放？", "qtype": "single", "doc_title": "薪酬福利管理办法", "section_title": "4. 发放规则", "expected_answer": "薪资每月 10 日发放上月工资，遇节假日提前。", "answerable": true}
+{"question": "密码长度要求多少位？", "qtype": "single", "doc_title": "信息安全管理办法", "section_title": "2. 账号与口令", "expected_answer": "密码长度不少于 12 位，须包含大小写字母、数字和特殊字符，每 90 天更换一次。", "answerable": true}
+{"question": "首次劳动合同期限一般为几年？", "qtype": "single", "doc_title": "劳动合同管理办法", "section_title": "2. 合同签订", "expected_answer": "首次合同期限一般为 3 年，试用期按法律规定确定。", "answerable": true}
+{"question": "年假最多有多少天？", "qtype": "single", "doc_title": "年休假管理办法", "section_title": "3. 年假天数", "expected_answer": "满 20 年 → 15 天", "answerable": true}
+{"question": "数据备份副本至少保留多少天？", "qtype": "single", "doc_title": "数据安全管理细则", "section_title": "5. 备份与恢复", "expected_answer": "核心数据每日增量备份，每周全量备份，备份副本至少保留 30 天。", "answerable": true}
+{"question": "固定资产的单价门槛是多少元？", "qtype": "single", "doc_title": "固定资产管理制度", "section_title": "2. 资产范围", "expected_answer": "固定资产包括单价 2000 元以上、使用年限 1 年以上的设备，以及行政部认定的其他重要资产。", "answerable": true}
+{"question": "云启 API 网关默认配置下的 P99 新增延迟是多少？", "qtype": "single", "doc_title": "云启 API 网关 FAQ", "section_title": "2. 性能问题", "expected_answer": "默认配置下 P99 新增延迟通常小于 5ms，实际与机器规格、插件数量有关。", "answerable": true}
+{"question": "差旅住宿费按城市分档分别是多少？", "qtype": "multi", "doc_title": "差旅报销管理规定", "section_title": "3. 费用标准", "expected_answer": "一线城市 500 元/晚，省会城市 400 元/晚，其他城市 300 元/晚", "answerable": true}
+{"question": "加班费按不同时段分别是多少比例？", "qtype": "multi", "doc_title": "加班管理制度", "section_title": "5. 加班费计算", "expected_answer": "工作日 150%，周末 200%，法定节假日 300%", "answerable": true}
+{"question": "年假天数按累计工作年限如何分档？", "qtype": "multi", "doc_title": "年休假管理办法", "section_title": "3. 年假天数", "expected_answer": "满 1 年不满 10 年 5 天；满 10 年不满 20 年 10 天；满 20 年 15 天", "answerable": true}
+{"question": "公司印章包括哪几种？", "qtype": "multi", "doc_title": "印章与证照管理制度", "section_title": "2. 印章范围", "expected_answer": "公章、合同专用章、财务专用章、发票专用章和法人章", "answerable": true}
+{"question": "保密级别分为哪几级？", "qtype": "multi", "doc_title": "保密管理制度", "section_title": "2. 密级定义", "expected_answer": "公开、内部、机密、绝密", "answerable": true}
+{"question": "公司绩效考核等级有哪几档？", "qtype": "multi", "doc_title": "绩效考核制度", "section_title": "4. 等级标准", "expected_answer": "S、A、B、C、D", "answerable": true}
+{"question": "公司提供哪些福利项目？", "qtype": "multi", "doc_title": "薪酬福利管理办法", "section_title": "5. 福利项目", "expected_answer": "五险一金、补充商业保险、年度体检、节日礼品、团建经费和学习补贴", "answerable": true}
+{"question": "云启低代码平台有哪些核心能力？", "qtype": "multi", "doc_title": "云启低代码平台产品介绍", "section_title": "3. 核心能力", "expected_answer": "可视化表单设计、流程引擎、页面与报表、API 编排、权限体系", "answerable": true}
+{"question": "云启 API 网关支持哪些认证方式？", "qtype": "multi", "doc_title": "云启 API 网关产品介绍", "section_title": "3. 核心能力", "expected_answer": "JWT、OAuth2、API Key、IP 白名单和签名", "answerable": true}
+{"question": "离职时权限回收涉及哪些系统和物品？", "qtype": "multihop", "doc_titles": ["离职交接管理办法"], "doc_title": "离职交接管理办法", "section_title": "4. 权限回收", "expected_answer": "系统账号、门禁、钥匙、邮箱和云资源", "answerable": true}
+{"question": "加班后调休需要在多久内安排完成？", "qtype": "multihop", "doc_titles": ["加班管理制度"], "doc_title": "加班管理制度", "section_title": "4. 调休规则", "expected_answer": "工作日加班优先安排调休，调休在加班发生后 3 个月内安排完成。", "answerable": true}
+{"question": "合同签署后的用印应按哪个制度执行？", "qtype": "multihop", "doc_titles": ["合同管理办法", "印章与证照管理制度"], "doc_title": "合同管理办法", "section_title": "4. 签署与盖章", "expected_answer": "合同签署前完成 OA 审批，用印按印章管理制度执行。", "answerable": true}
+{"question": "产品发布上线若涉及生产环境变更，应按哪个办法执行？", "qtype": "multihop", "doc_titles": ["产品发布上线规范", "技术变更管理办法"], "doc_title": "产品发布上线规范", "section_title": "2. 发布流程", "expected_answer": "生产环境变更按技术变更管理办法执行，重大版本须发布委员会评审。", "answerable": true}
+{"question": "离职员工的工作交接应按哪个办法执行？", "qtype": "multihop", "doc_titles": ["劳动合同管理办法", "离职交接管理办法"], "doc_title": "劳动合同管理办法", "section_title": "4. 解除与终止", "expected_answer": "离职手续按离职交接管理办法完成，包括工作交接、资产归还和权限回收。", "answerable": true}
+{"question": "涉密设备报废时有什么额外要求？", "qtype": "multihop", "doc_titles": ["固定资产管理制度"], "doc_title": "固定资产管理制度", "section_title": "6. 报废", "expected_answer": "行政部确认后按财务规定完成残值处理，涉密设备必须先完成数据清除。", "answerable": true}
+{"question": "员工行使客户资料删除权时，按什么要求处理？", "qtype": "multihop", "doc_titles": ["客户资料管理规定", "数据安全管理细则"], "doc_title": "客户资料管理规定", "section_title": "5. 导出与删除", "expected_answer": "客户行使删除权或合同终止后的资料处理，按数据安全要求执行。", "answerable": true}
+{"question": "安全事件中涉及客户数据的，应在多久内通知相关方？", "qtype": "multihop", "doc_titles": ["信息安全应急预案"], "doc_title": "信息安全应急预案", "section_title": "4. 处置流程", "expected_answer": "涉及客户数据的事件应在 24 小时内按协议和法规通知相关方。", "answerable": true}
+{"question": "使用开源软件涉及传染性许可时应如何处理？", "qtype": "multihop", "doc_titles": ["软件采购与许可管理规定"], "doc_title": "软件采购与许可管理规定", "section_title": "4. 开源合规", "expected_answer": "使用开源软件前应核对许可证类型，GPL、AGPL 等传染性许可须经法务评估。", "answerable": true}
+{"question": "请总结员工考勤管理制度的主要内容。", "qtype": "summary", "doc_title": "员工考勤管理制度", "section_title": null, "expected_answer": "出勤、打卡、迟到早退、请假和外勤管理要求", "answerable": true}
+{"question": "请总结年休假管理办法的主要内容。", "qtype": "summary", "doc_title": "年休假管理办法", "section_title": null, "expected_answer": "享受条件、天数标准、申请与折算规则", "answerable": true}
+{"question": "请总结加班管理制度的主要内容。", "qtype": "summary", "doc_title": "加班管理制度", "section_title": null, "expected_answer": "加班的申请、审批、调休和加班费计算", "answerable": true}
+{"question": "请总结保密管理制度的主要内容。", "qtype": "summary", "doc_title": "保密管理制度", "section_title": null, "expected_answer": "涉密信息的分级、标识、访问、传递和对外发布", "answerable": true}
+{"question": "请总结离职交接管理办法的主要内容。", "qtype": "summary", "doc_title": "离职交接管理办法", "section_title": null, "expected_answer": "工作交接、资产归还、权限回收和薪酬结算", "answerable": true}
+{"question": "请总结信息安全应急预案的主要内容。", "qtype": "summary", "doc_title": "信息安全应急预案", "section_title": null, "expected_answer": "信息安全事件的分级、响应组织、处置流程和演练安排", "answerable": true}
+{"question": "请总结研发代码管理规范的主要内容。", "qtype": "summary", "doc_title": "研发代码管理规范", "section_title": null, "expected_answer": "分支管理、提交规范、代码评审和 CI/CD 要求", "answerable": true}
+{"question": "请总结云启容器平台的产品定位与核心能力。", "qtype": "summary", "doc_title": "云启容器平台产品介绍", "section_title": null, "expected_answer": "镜像管理、应用编排、服务发现、弹性伸缩和运维观测", "answerable": true}
+{"question": "请总结云启消息队列的主要能力与适用场景。", "qtype": "summary", "doc_title": "云启消息队列产品介绍", "section_title": null, "expected_answer": "发布订阅、点对点和延迟消息；订单异步处理、日志采集、任务队列和事件通知", "answerable": true}
+{"question": "差旅报销中，一线城市和省会城市的住宿标准相差多少？", "qtype": "compare", "doc_titles": ["差旅报销管理规定"], "doc_title": "差旅报销管理规定", "section_title": "3. 费用标准", "expected_answer": "一线城市 500 元/晚，省会城市 400 元/晚，相差 100 元", "answerable": true}
+{"question": "请假 1 天以内和 3 天以上，审批人分别是谁？", "qtype": "compare", "doc_titles": ["员工考勤管理制度"], "doc_title": "员工考勤管理制度", "section_title": "4. 请假流程", "expected_answer": "1 天以内由直属主管审批，3 天以上由分管领导审批", "answerable": true}
+{"question": "绩效考核中 S 级和 D 级的参考比例分别是多少？", "qtype": "compare", "doc_titles": ["绩效考核制度"], "doc_title": "绩效考核制度", "section_title": "4. 等级标准", "expected_answer": "S 不超过 10%，D 不超过 2%", "answerable": true}
+{"question": "低代码平台 v2.6 相比 v2.5 新增了哪些能力？", "qtype": "compare", "doc_titles": ["云启低代码平台版本发布记录"], "doc_title": "云启低代码平台版本发布记录", "section_title": "2. v2.6（2026-06-30）", "expected_answer": "v2.6 新增数据字典管理、流程节点自动生成任务和定时触发、表单编辑器撤销重做和键盘快捷键", "answerable": true}
+{"question": "数据分析平台 v3.2 与 v3.1 的主要差异是什么？", "qtype": "compare", "doc_titles": ["云启数据分析平台版本发布记录"], "doc_title": "云启数据分析平台版本发布记录", "section_title": "2. v3.2（2026-05-20）", "expected_answer": "v3.2 新增指标解释、数据血缘图，优化大屏组件性能，修复订阅任务重复发送", "answerable": true}
+{"question": "消息队列 v4.2 与 v4.1 的主要差异是什么？", "qtype": "compare", "doc_titles": ["云启消息队列版本发布记录"], "doc_title": "云启消息队列版本发布记录", "section_title": "2. v4.2（2026-06-08）", "expected_answer": "v4.2 新增分层存储、消费者组流量控制和消息轨迹，优化重平衡期间消费延迟", "answerable": true}
+{"question": "容器平台 v3.4 与 v3.3 的主要差异是什么？", "qtype": "compare", "doc_titles": ["云启容器平台版本发布记录"], "doc_title": "云启容器平台版本发布记录", "section_title": "2. v3.4（2026-06-12）", "expected_answer": "v3.4 新增多集群联邦调度和跨集群灾备、应用拓扑和依赖关系图，优化大规模集群调度性能", "answerable": true}
+{"question": "API 网关对低风险和高风险技术变更的审批层级有何不同？", "qtype": "compare", "doc_titles": ["技术变更管理办法"], "doc_title": "技术变更管理办法", "section_title": "3. 审批流程", "expected_answer": "低风险由技术负责人审批，高风险由变更委员会审批", "answerable": true}
+{"question": "办公用品 500 元以内和以上的采购审批人分别是谁？", "qtype": "compare", "doc_titles": ["办公用品管理办法"], "doc_title": "办公用品管理办法", "section_title": "3. 申购流程", "expected_answer": "500 元以内由行政主管审批，以上由行政负责人审批", "answerable": true}
+{"question": "公司有没有规定员工可以无限期远程办公？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "远程办公管理办法仅规定临时/定期远程办公，试用期前 1 个月原则上不安排长期远程办公，无'无限期'条款"}
+{"question": "公司是否提供免费三餐？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "薪酬福利管理办法列举的福利为五险一金、补充商业保险、年度体检、节日礼品、团建经费和学习补贴，无免费三餐"}
+{"question": "员工可以带宠物上班吗？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "员工行为规范只规定办公环境整洁、禁烟、禁大功率电器等，未涉及宠物"}
+{"question": "公司2025年的营业收入是多少？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "语料为制度与产品文档，不含任何经营财务数据"}
+{"question": "公司是否允许员工兼职？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "员工行为规范规定不得利用职务便利谋取私利，但未规定兼职政策"}
+{"question": "年假可以折算成现金吗？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "年休假管理办法只规定未休可跨 1 个年度安排、放弃只计当年应休天数，未规定折现"}
+{"question": "公司提供班车吗？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "薪酬福利管理办法与员工考勤管理制度均未提及班车"}
+{"question": "云启低代码平台是否支持区块链存证？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "产品介绍与 FAQ 所列能力为表单、流程、报表、API 编排、权限，未涉及区块链"}
+{"question": "员工每年可以请多少天病假？", "qtype": "noanswer", "doc_title": null, "section_title": null, "expected_answer": null, "answerable": false, "why_not_in_corpus": "员工考勤管理制度规定病假须补交医院证明，但未规定年度病假天数上限"}

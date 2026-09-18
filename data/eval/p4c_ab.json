@@ -1,0 +1,13 @@
+{
+  "n_facts": 52,
+  "by_type": {
+    "requirement": 21,
+    "prohibition": 8,
+    "rate": 12,
+    "deadline": 6,
+    "sequence": 2,
+    "threshold": 3
+  },
+  "s_class_recovered": 7,
+  "s_class_total": 8
+}

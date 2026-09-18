@@ -1,0 +1,986 @@
+{
+  "total_nodes": 794,
+  "total_relations": 822,
+  "nodes_after_merge": 759,
+  "will_remove": 35,
+  "merge_groups": [
+    {
+      "key": "供应商",
+      "display_name": "供应商",
+      "canonical_type": "Organization",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75628",
+          "name": "供应商",
+          "type": "Organization",
+          "norm_type": "Organization",
+          "desc": "向云启科技提供货物或服务的外部组织",
+          "src": "YQ-INST-023-供应商管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75871",
+          "name": "供应商",
+          "type": "Organization",
+          "norm_type": "Organization",
+          "desc": "提供产品或服务的组织",
+          "src": "测试用供应商制度(2).md"
+        }
+      ],
+      "aliases": [
+        "供应商"
+      ]
+    },
+    {
+      "key": "绩效评估",
+      "display_name": "绩效评估",
+      "canonical_type": "Event",
+      "member_count": 3,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75652",
+          "name": "绩效评估",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "每半年对核心供应商进行的绩效评估活动",
+          "src": "YQ-INST-023-供应商管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75663",
+          "name": "绩效评估",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "每半年对核心供应商进行的评估",
+          "src": "YQ-INST-023-供应商管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75875",
+          "name": "绩效评估",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "对供应商进行的定期评估活动",
+          "src": "测试用供应商制度(2).md"
+        }
+      ],
+      "aliases": [
+        "绩效评估"
+      ]
+    },
+    {
+      "key": "公章",
+      "display_name": "公章",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75683",
+          "name": "公章",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "印章类型",
+          "src": "YQ-INST-024-合同管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84853",
+          "name": "公章",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "公司印章类型",
+          "src": "YQ-INST-016-印章与证照管理制度.md"
+        }
+      ],
+      "aliases": [
+        "公章"
+      ]
+    },
+    {
+      "key": "合同专用章",
+      "display_name": "合同专用章",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75684",
+          "name": "合同专用章",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "印章类型",
+          "src": "YQ-INST-024-合同管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84854",
+          "name": "合同专用章",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "公司印章类型",
+          "src": "YQ-INST-016-印章与证照管理制度.md"
+        }
+      ],
+      "aliases": [
+        "合同专用章"
+      ]
+    },
+    {
+      "key": "知识库问答系统",
+      "display_name": "知识库问答系统",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75692",
+          "name": "知识库问答系统",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "本制度用于学习演示的系统",
+          "src": "YQ-INST-024-合同管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84535",
+          "name": "知识库问答系统",
+          "type": "Technology",
+          "norm_type": "Artifact",
+          "desc": "本制度用于其学习演示",
+          "src": "YQ-INST-017-会议室预订与使用规范.md"
+        }
+      ],
+      "aliases": [
+        "知识库问答系统"
+      ]
+    },
+    {
+      "key": "档案",
+      "display_name": "档案",
+      "canonical_type": "Concept",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75699",
+          "name": "档案",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "公司收集、整理、保管、利用和销毁的对象",
+          "src": "YQ-INST-025-档案管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84797",
+          "name": "档案",
+          "type": "Unknown",
+          "norm_type": "Concept",
+          "desc": "",
+          "src": "YQ-INST-013-保密管理制度.md"
+        }
+      ],
+      "aliases": [
+        "档案"
+      ]
+    },
+    {
+      "key": "cicd",
+      "display_name": "CI/CD",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75766",
+          "name": "CI/CD",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "持续集成/持续交付",
+          "src": "YQ-INST-027-研发代码管理规范.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75779",
+          "name": "CI/CD",
+          "type": "Technology",
+          "norm_type": "Artifact",
+          "desc": "持续集成与持续交付",
+          "src": "YQ-INST-027-研发代码管理规范.md"
+        }
+      ],
+      "aliases": [
+        "CI/CD"
+      ]
+    },
+    {
+      "key": "导出文件",
+      "display_name": "导出文件",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75825",
+          "name": "导出文件",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "导出的客户资料文件",
+          "src": "YQ-INST-029-客户资料管理规定.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84827",
+          "name": "导出文件",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "导出的数据文件",
+          "src": "YQ-INST-014-数据安全管理细则.md"
+        }
+      ],
+      "aliases": [
+        "导出文件"
+      ]
+    },
+    {
+      "key": "复盘报告",
+      "display_name": "复盘报告",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75856",
+          "name": "复盘报告",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "处置完成后编写的报告",
+          "src": "YQ-INST-021-信息安全应急预案.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84592",
+          "name": "复盘报告",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "事件处置后的报告",
+          "src": "YQ-INST-005-信息安全管理办法.md"
+        }
+      ],
+      "aliases": [
+        "复盘报告"
+      ]
+    },
+    {
+      "key": "10个工作日",
+      "display_name": "10个工作日",
+      "canonical_type": "Time",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75870",
+          "name": "10个工作日",
+          "type": "Time",
+          "norm_type": "Time",
+          "desc": "出差结束后提交报销单的时限",
+          "src": "测试用差旅制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84536",
+          "name": "10 个工作日",
+          "type": "Time",
+          "norm_type": "Time",
+          "desc": "申诉提交时限和普通申诉处理时限",
+          "src": "YQ-INST-020-员工申诉与沟通制度.md"
+        }
+      ],
+      "aliases": [
+        "10 个工作日",
+        "10个工作日"
+      ]
+    },
+    {
+      "key": "营业执照",
+      "display_name": "营业执照",
+      "canonical_type": "Concept",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:75872",
+          "name": "营业执照",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "企业合法经营的凭证",
+          "src": "测试用供应商制度(2).md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84869",
+          "name": "营业执照",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "新供应商准入需提交的资质文件之一",
+          "src": "YQ-INST-023-供应商管理制度.md"
+        }
+      ],
+      "aliases": [
+        "营业执照"
+      ]
+    },
+    {
+      "key": "v13",
+      "display_name": "v1.3",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84443",
+          "name": "v1.3",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "制度版本号",
+          "src": "YQ-INST-001-员工考勤管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84600",
+          "name": "v1.3",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "文档版本",
+          "src": "YQ-INST-006-固定资产管理制度.md"
+        }
+      ],
+      "aliases": [
+        "v1.3"
+      ]
+    },
+    {
+      "key": "企业im",
+      "display_name": "企业 IM",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84451",
+          "name": "企业 IM",
+          "type": "Technology",
+          "norm_type": "Artifact",
+          "desc": "远程办公时需保持可联系的即时通讯工具",
+          "src": "YQ-INST-001-员工考勤管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84895",
+          "name": "企业IM",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "远程办公期间需保持在线的工作沟通工具",
+          "src": "YQ-INST-018-远程办公管理办法.md"
+        }
+      ],
+      "aliases": [
+        "企业 IM",
+        "企业IM"
+      ]
+    },
+    {
+      "key": "oa系统",
+      "display_name": "OA系统",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84468",
+          "name": "OA系统",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "用于提交年假申请的信息系统",
+          "src": "YQ-INST-002-年休假管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84514",
+          "name": "OA系统",
+          "type": "Technology",
+          "norm_type": "Artifact",
+          "desc": "用于提交出差申请的信息系统",
+          "src": "YQ-INST-003-差旅报销管理规定.md"
+        }
+      ],
+      "aliases": [
+        "OA系统"
+      ]
+    },
+    {
+      "key": "新版本",
+      "display_name": "新版本",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84491",
+          "name": "新版本",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "修订后发布的新版本制度",
+          "src": "YQ-INST-029-客户资料管理规定.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84741",
+          "name": "新版本",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "修订后发布的新版本制度",
+          "src": "YQ-INST-011-劳动合同管理办法.md"
+        }
+      ],
+      "aliases": [
+        "新版本"
+      ]
+    },
+    {
+      "key": "申请与审批",
+      "display_name": "申请与审批",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84502",
+          "name": "申请与审批",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "年假申请和审批流程",
+          "src": "YQ-INST-002-年休假管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84505",
+          "name": "申请与审批",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "年假申请与审批的流程",
+          "src": "YQ-INST-002-年休假管理办法.md"
+        }
+      ],
+      "aliases": [
+        "申请与审批"
+      ]
+    },
+    {
+      "key": "修订",
+      "display_name": "修订",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84510",
+          "name": "修订",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "对营情况变化的修改",
+          "src": "YQ-INST-027-研发代码管理规范.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84595",
+          "name": "修订",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "对规定进行修改的行为",
+          "src": "YQ-INST-005-信息安全管理办法.md"
+        }
+      ],
+      "aliases": [
+        "修订"
+      ]
+    },
+    {
+      "key": "审批",
+      "display_name": "审批",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84511",
+          "name": "审批",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "对修订的审核批准",
+          "src": "YQ-INST-027-研发代码管理规范.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84596",
+          "name": "审批",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "对修订进行审核批准的过程",
+          "src": "YQ-INST-005-信息安全管理办法.md"
+        }
+      ],
+      "aliases": [
+        "审批"
+      ]
+    },
+    {
+      "key": "审批记录",
+      "display_name": "审批记录",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84527",
+          "name": "审批记录",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "报销时需附上的审批记录",
+          "src": "测试用差旅制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84717",
+          "name": "审批记录",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "不得伪造的审批文件",
+          "src": "YQ-INST-010-员工行为规范.md"
+        }
+      ],
+      "aliases": [
+        "审批记录"
+      ]
+    },
+    {
+      "key": "源代码",
+      "display_name": "源代码",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84574",
+          "name": "源代码",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "敏感数据之一",
+          "src": "YQ-INST-005-信息安全管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84778",
+          "name": "源代码",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "机密密级示例",
+          "src": "YQ-INST-013-保密管理制度.md"
+        }
+      ],
+      "aliases": [
+        "源代码"
+      ]
+    },
+    {
+      "key": "资产系统",
+      "display_name": "资产系统",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84606",
+          "name": "资产系统",
+          "type": "Technology",
+          "norm_type": "Artifact",
+          "desc": "用于办理资产变更手续的系统",
+          "src": "YQ-INST-006-固定资产管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84609",
+          "name": "资产系统",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "用于办理设备变更手续的信息系统",
+          "src": "YQ-INST-006-固定资产管理制度.md"
+        }
+      ],
+      "aliases": [
+        "资产系统"
+      ]
+    },
+    {
+      "key": "背景调查",
+      "display_name": "背景调查",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84628",
+          "name": "背景调查",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "候选人背景核实",
+          "src": "YQ-INST-007-招聘管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84651",
+          "name": "背景调查",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "HR对拟录用人员进行的背景核实",
+          "src": "YQ-INST-007-招聘管理制度.md"
+        }
+      ],
+      "aliases": [
+        "背景调查"
+      ]
+    },
+    {
+      "key": "录用审批",
+      "display_name": "录用审批",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84629",
+          "name": "录用审批",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "录用决策流程",
+          "src": "YQ-INST-007-招聘管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84647",
+          "name": "录用审批",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "确定拟录用人员后的审批流程",
+          "src": "YQ-INST-007-招聘管理制度.md"
+        }
+      ],
+      "aliases": [
+        "录用审批"
+      ]
+    },
+    {
+      "key": "综合面试",
+      "display_name": "综合面试",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84638",
+          "name": "综合面试",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "综合评估面试环节",
+          "src": "YQ-INST-007-招聘管理制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84644",
+          "name": "综合面试",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "面试环节，技术岗位至少一轮综合面试，非技术岗位至少两轮",
+          "src": "YQ-INST-007-招聘管理制度.md"
+        }
+      ],
+      "aliases": [
+        "综合面试"
+      ]
+    },
+    {
+      "key": "考核结果",
+      "display_name": "考核结果",
+      "canonical_type": "Concept",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84703",
+          "name": "考核结果",
+          "type": "Unknown",
+          "norm_type": "Concept",
+          "desc": "",
+          "src": "YQ-INST-009-绩效考核制度.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84936",
+          "name": "考核结果",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "员工可提出申诉的事项之一",
+          "src": "YQ-INST-020-员工申诉与沟通制度.md"
+        }
+      ],
+      "aliases": [
+        "考核结果"
+      ]
+    },
+    {
+      "key": "工作交接",
+      "display_name": "工作交接",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84736",
+          "name": "工作交接",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "离职时的工作移交",
+          "src": "YQ-INST-011-劳动合同管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84921",
+          "name": "工作交接",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "离职时的工作交接流程",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "工作交接"
+      ]
+    },
+    {
+      "key": "资产归还",
+      "display_name": "资产归还",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84737",
+          "name": "资产归还",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "离职时归还公司资产",
+          "src": "YQ-INST-011-劳动合同管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84922",
+          "name": "资产归还",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "离职时的资产归还流程",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "资产归还"
+      ]
+    },
+    {
+      "key": "权限回收",
+      "display_name": "权限回收",
+      "canonical_type": "Event",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84738",
+          "name": "权限回收",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "离职时收回系统权限",
+          "src": "YQ-INST-011-劳动合同管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84919",
+          "name": "权限回收",
+          "type": "Event",
+          "norm_type": "Event",
+          "desc": "离职前回收各类权限的流程",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "权限回收"
+      ]
+    },
+    {
+      "key": "薪酬系统",
+      "display_name": "薪酬系统",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84751",
+          "name": "薪酬系统",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "用于线上查看工资条的系统",
+          "src": "YQ-INST-012-薪酬福利管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84757",
+          "name": "薪酬系统",
+          "type": "Technology",
+          "norm_type": "Artifact",
+          "desc": "用于线上查看工资条的系统",
+          "src": "YQ-INST-012-薪酬福利管理办法.md"
+        }
+      ],
+      "aliases": [
+        "薪酬系统"
+      ]
+    },
+    {
+      "key": "系统账号",
+      "display_name": "系统账号",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84912",
+          "name": "系统账号",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "需要回收的系统访问账号",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84924",
+          "name": "系统账号",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "系统账号"
+      ]
+    },
+    {
+      "key": "门禁",
+      "display_name": "门禁",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84913",
+          "name": "门禁",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "需要回收的门禁权限",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84925",
+          "name": "门禁",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "门禁"
+      ]
+    },
+    {
+      "key": "钥匙",
+      "display_name": "钥匙",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84914",
+          "name": "钥匙",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "需要回收的物理钥匙",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84926",
+          "name": "钥匙",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "钥匙"
+      ]
+    },
+    {
+      "key": "邮箱",
+      "display_name": "邮箱",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84915",
+          "name": "邮箱",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "需要回收的邮箱账号",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84927",
+          "name": "邮箱",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "邮箱"
+      ]
+    },
+    {
+      "key": "云资源",
+      "display_name": "云资源",
+      "canonical_type": "Artifact",
+      "member_count": 2,
+      "members": [
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84916",
+          "name": "云资源",
+          "type": "Product",
+          "norm_type": "Artifact",
+          "desc": "需要回收的云服务资源",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        },
+        {
+          "eid": "4:12a2afbd-da5b-462a-92e5-626b64e05511:84928",
+          "name": "云资源",
+          "type": "Concept",
+          "norm_type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "YQ-INST-019-离职交接管理办法.md"
+        }
+      ],
+      "aliases": [
+        "云资源"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "负责人",
+      "type": "Person",
+      "reason": "类型不兼容（Person vs Concept）",
+      "vs_type": "Concept"
+    },
+    {
+      "name": "负责人",
+      "type": "Concept",
+      "reason": "类型不兼容（Concept vs Person）",
+      "vs_type": "Person"
+    },
+    {
+      "name": "测试",
+      "type": "Organization",
+      "reason": "类型不兼容（Organization vs Concept）",
+      "vs_type": "Concept"
+    },
+    {
+      "name": "测试",
+      "type": "Concept",
+      "reason": "类型不兼容（Concept vs Organization）",
+      "vs_type": "Organization"
+    },
+    {
+      "name": "销售",
+      "type": "Person",
+      "reason": "类型不兼容（Person vs Concept）",
+      "vs_type": "Concept"
+    },
+    {
+      "name": "销售",
+      "type": "Concept",
+      "reason": "类型不兼容（Concept vs Person）",
+      "vs_type": "Person"
+    },
+    {
+      "name": "HR",
+      "type": "Organization",
+      "reason": "类型不兼容（Organization vs Person）",
+      "vs_type": "Person"
+    },
+    {
+      "name": "HR",
+      "type": "Person",
+      "reason": "类型不兼容（Person vs Organization）",
+      "vs_type": "Organization"
+    }
+  ]
+}

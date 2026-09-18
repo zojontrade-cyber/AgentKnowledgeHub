@@ -1,0 +1,23 @@
+{
+  "S1_current": {
+    "n": 4,
+    "avg_prompt": 305.25,
+    "avg_hit": 128.0,
+    "avg_miss": 177.25,
+    "hit_rate": 0.41932841932841936
+  },
+  "S2_user_prefix": {
+    "n": 5,
+    "avg_prompt": 304.6,
+    "avg_hit": 128.0,
+    "avg_miss": 176.6,
+    "hit_rate": 0.42022324359816154
+  },
+  "S3_shared_prefix": {
+    "n": 5,
+    "avg_prompt": 346.6,
+    "avg_hit": 128.0,
+    "avg_miss": 218.6,
+    "hit_rate": 0.36930178880553954
+  }
+}

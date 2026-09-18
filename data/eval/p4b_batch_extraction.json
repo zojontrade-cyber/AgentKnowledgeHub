@@ -1,0 +1,41 @@
+{
+  "A_1chunk": {
+    "batch": 1,
+    "calls": 159,
+    "ms": 378714.87160000106,
+    "entities": 1485,
+    "unique": 1070,
+    "fact_recall": 0.46296296296296297,
+    "fact_hits": 25,
+    "fact_total": 54,
+    "entity_recall": 1.0,
+    "entity_intersect": 1310,
+    "total_tokens": 85005
+  },
+  "B_2chunk": {
+    "batch": 2,
+    "calls": 89,
+    "ms": 269000.6003000017,
+    "entities": 1133,
+    "unique": 882,
+    "fact_recall": 0.3148148148148148,
+    "fact_hits": 17,
+    "fact_total": 54,
+    "entity_recall": 0.7289855072463768,
+    "entity_intersect": 1006,
+    "total_tokens": 52805
+  },
+  "C_3chunk": {
+    "batch": 3,
+    "calls": 60,
+    "ms": 215584.4494999983,
+    "entities": 920,
+    "unique": 736,
+    "fact_recall": 0.5185185185185185,
+    "fact_hits": 28,
+    "fact_total": 54,
+    "entity_recall": 0.6107091172214182,
+    "entity_intersect": 844,
+    "total_tokens": 39465
+  }
+}

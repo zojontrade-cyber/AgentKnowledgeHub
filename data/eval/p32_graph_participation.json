@@ -1,0 +1,618 @@
+{
+  "type_counts": {
+    "vector": 324,
+    "graph": 101
+  },
+  "questions_with_graph": 22,
+  "total_questions": 42,
+  "latency_total_p50_ms": 851.7317000005278,
+  "latency_graph_p50_ms": 6.527400000777561,
+  "graph_contexts": [
+    {
+      "q": "请假要走什么流程？",
+      "type": "graph",
+      "content": "请假 --[PART_OF]--> 员工考勤管理制度 (Concept): 规定员工出勤、打卡、迟到早退、请假和外勤管理要求的制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "外勤要提前报备吗？",
+      "type": "graph",
+      "content": "外勤 --[USES]--> 考勤系统 (Product): 用于登记外勤信息",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假有多少天？",
+      "type": "graph",
+      "content": "年假 --[PART_OF]--> 请假流程 (Concept): 使用OA系统填写申请单，按审批权限提交审批",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假有多少天？",
+      "type": "graph",
+      "content": "年假 --[RELATED_TO]--> 员工 (Person): 离职交接的主体",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假有多少天？",
+      "type": "graph",
+      "content": "年假 --[USES]--> OA系统 (Product): 用于提交年假申请的信息系统",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假有多少天？",
+      "type": "graph",
+      "content": "年假 --[RELATED_TO]--> 本制度 (Concept): 模拟文档，用于知识库问答系统的学习演示",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假要提前多久申请？",
+      "type": "graph",
+      "content": "年假 --[PART_OF]--> 请假流程 (Concept): 使用OA系统填写申请单，按审批权限提交审批",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假要提前多久申请？",
+      "type": "graph",
+      "content": "年假 --[RELATED_TO]--> 员工 (Person): 离职交接的主体",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假要提前多久申请？",
+      "type": "graph",
+      "content": "年假 --[USES]--> OA系统 (Product): 用于提交年假申请的信息系统",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假要提前多久申请？",
+      "type": "graph",
+      "content": "年假 --[RELATED_TO]--> 本制度 (Concept): 模拟文档，用于知识库问答系统的学习演示",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假没休完能跨年吗？",
+      "type": "graph",
+      "content": "年假 --[PART_OF]--> 请假流程 (Concept): 使用OA系统填写申请单，按审批权限提交审批",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假没休完能跨年吗？",
+      "type": "graph",
+      "content": "年假 --[RELATED_TO]--> 员工 (Person): 离职交接的主体",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假没休完能跨年吗？",
+      "type": "graph",
+      "content": "年假 --[USES]--> OA系统 (Product): 用于提交年假申请的信息系统",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "年假没休完能跨年吗？",
+      "type": "graph",
+      "content": "年假 --[RELATED_TO]--> 本制度 (Concept): 模拟文档，用于知识库问答系统的学习演示",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "出差回来多久内要报销？",
+      "type": "graph",
+      "content": "出差 --[DEPENDS_ON]--> 差旅报销管理规定 (Concept): 规范差旅申请、费用标准、报销流程和发票要求的制度文档",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "加班费怎么算？",
+      "type": "graph",
+      "content": "加班费 --[PART_OF]--> 加班管理制度 (Concept): 规范加班申请、审批、调休和加班费计算的制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "加班费怎么算？",
+      "type": "graph",
+      "content": "加班费 --[RELATED_TO]--> 工作日 (Time): 正常上班的日子",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "加班费怎么算？",
+      "type": "graph",
+      "content": "加班费 --[RELATED_TO]--> 周末 (Time): 周六和周日",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "加班费怎么算？",
+      "type": "graph",
+      "content": "加班费 --[RELATED_TO]--> 法定节假日 (Time): 国家规定的放假节日",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "加班要提前申请吗？",
+      "type": "graph",
+      "content": "加班 --[PART_OF]--> 加班管理制度 (Concept): 规范加班申请、审批、调休和加班费计算的制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "用印要走什么流程？",
+      "type": "graph",
+      "content": "用印 --[DEPENDS_ON]--> 印章管理制度 (Concept): 用印管理制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[RELATED_TO]--> 试用期考核 (Event): 对试用期员工的考核，不合格则解除劳动合同",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[DEPENDS_ON]--> 不定时工作制 (Concept): 不适用周末加班费的工作制",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[RELATED_TO]--> 员工 (Person): 离职交接的主体",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[RELATED_TO]--> 公司 (Organization): 制定制度的公司",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[RELATED_TO]--> 基本工资 (Concept): 员工月薪组成部分",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[RELATED_TO]--> 岗位工资 (Concept): 员工月薪组成部分",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[RELATED_TO]--> 绩效工资 (Concept): 员工月薪组成部分",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "劳动合同一般签几年？",
+      "type": "graph",
+      "content": "劳动合同 --[DEPENDS_ON]--> 小时工资 (Concept): 按劳动合同约定的月工资基数计算",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产报废怎么处理？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 测试设备 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产报废怎么处理？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 办公家具 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产报废怎么处理？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 显示器 (Product): 下班后需关闭的设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产报废怎么处理？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 服务器 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产报废怎么处理？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 电脑 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产多久盘点一次？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 测试设备 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产多久盘点一次？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 办公家具 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产多久盘点一次？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 显示器 (Product): 下班后需关闭的设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产多久盘点一次？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 服务器 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "固定资产多久盘点一次？",
+      "type": "graph",
+      "content": "固定资产 --[PART_OF]--> 电脑 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[PART_OF]--> 密级标识 (Concept): 档案应添加的标识",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[PART_OF]--> 负责人 (Person): 软件许可的负责人",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[RELATED_TO]--> 鉴定 (Concept): 档案到期后的鉴定过程",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[RELATED_TO]--> 销毁 (Concept): 经审批后对档案的销毁处理",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[RELATED_TO]--> 归档范围 (Concept): 规定哪些文件需要归档",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[RELATED_TO]--> 整理要求 (Concept): 档案按年度和类别整理的要求",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[RELATED_TO]--> 借阅利用 (Concept): 档案借阅和利用的规定",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "档案怎么借阅？",
+      "type": "graph",
+      "content": "档案 --[RELATED_TO]--> 保管期限 (Concept): 档案保管的时间规定",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "上线前要谁审批？",
+      "type": "graph",
+      "content": "审批 --[DEPENDS_ON]--> 批量导出客户资料 (Unknown): ",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "上线前要谁审批？",
+      "type": "graph",
+      "content": "审批 --[RELATED_TO]--> 涉密设备 (Product): 携带出差需要提前审批的设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "上线前要谁审批？",
+      "type": "graph",
+      "content": "审批 --[DEPENDS_ON]--> 修订 (Event): 对规定进行修改的行为",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "上线前要谁审批？",
+      "type": "graph",
+      "content": "审批 --[RELATED_TO]--> 新版本 (Concept): 修订后发布的新版本制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "代码评审怎么做？",
+      "type": "graph",
+      "content": "代码评审 --[DEPENDS_ON]--> 合并请求 (Concept): 代码合并请求",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "代码评审怎么做？",
+      "type": "graph",
+      "content": "代码评审 --[RELATED_TO]--> 研发代码管理规范 (Concept): 文档标题，规范名称",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "办公用品怎么领？",
+      "type": "graph",
+      "content": "办公用品 --[PART_OF]--> 耐用品 (Product): 工牌、计算器、显示器支架等耐用办公用品",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "办公用品怎么领？",
+      "type": "graph",
+      "content": "办公用品 --[PART_OF]--> 常用消耗品 (Product): 纸、笔、文具等消耗性办公用品",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "办公用品怎么领？",
+      "type": "graph",
+      "content": "办公用品 --[RELATED_TO]--> 行政部 (Organization): 负责档案管理的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "会议室预订后能取消吗？",
+      "type": "graph",
+      "content": "会议室 --[LOCATED_IN]--> 云启科技 (Organization): 文档所属公司",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "会议室预订后能取消吗？",
+      "type": "graph",
+      "content": "会议室 --[PART_OF]--> 投影 (Product): 会议室设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "会议室预订后能取消吗？",
+      "type": "graph",
+      "content": "会议室 --[PART_OF]--> 视频会议终端 (Product): 会议室设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "远程办公怎么申请？",
+      "type": "graph",
+      "content": "远程办公 --[USES]--> 公司 VPN (Technology): 远程办公使用的虚拟专用网络",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "远程办公怎么申请？",
+      "type": "graph",
+      "content": "远程办公 --[USES]--> 受控终端 (Technology): 远程办公使用的受控设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> U盘 (Product): 公司发放的终端设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 手机 (Product): 公司发放的终端设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[RELATED_TO]--> 劳动合同 (Concept): 写入薪资具体比例的文件",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[PART_OF]--> 财务部 (Organization): 审核结算条款的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 员工 (Person): 离职交接的主体",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 相关责任部门 (Organization): 负责提出修订的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 直属主管 (Person): 员工可反馈问题的对象之一",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 部门负责人 (Person): 部门负责人及以上职位",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 人力资源部 (Organization): 负责该制度的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 电脑 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司如何保障信息安全？",
+      "type": "graph",
+      "content": "公司 --[RELATED_TO]--> 测试用差旅制度 (Concept): 公司差旅管理制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 劳动合同 (Concept): 写入薪资具体比例的文件",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[BELONGS_TO]--> 公司 (Organization): 制定制度的公司",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[USES]--> 员工工资卡 (Product): 报销款项发放至的账户",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 高铁二等座 (Product): 默认的出差交通标准之一",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 飞机经济舱 (Product): 默认的出差交通标准之一",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 保密协议 (Concept): 员工入职时签署的协议，离职后保密义务持续有效",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 保密义务 (Concept): 按协议执行的保密条款",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 离职申请 (Event): 员工主动提出离职的流程",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 工作交接 (Concept): 离职时的工作移交",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 资产归还 (Concept): 离职时归还公司资产",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 权限回收 (Concept): 离职时收回系统权限",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 薪酬结算 (Event): 离职时的薪酬结算流程",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "员工离职要办哪些手续？",
+      "type": "graph",
+      "content": "员工 --[RELATED_TO]--> 年假 (Concept): 员工依法享有的带薪年休假",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> U盘 (Product): 公司发放的终端设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 手机 (Product): 公司发放的终端设备",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[RELATED_TO]--> 劳动合同 (Concept): 写入薪资具体比例的文件",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[PART_OF]--> 财务部 (Organization): 审核结算条款的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 员工 (Person): 离职交接的主体",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 相关责任部门 (Organization): 负责提出修订的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 直属主管 (Person): 员工可反馈问题的对象之一",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 部门负责人 (Person): 部门负责人及以上职位",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 人力资源部 (Organization): 负责该制度的部门",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[BELONGS_TO]--> 电脑 (Product): 固定资产的一种",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "公司有哪些福利？",
+      "type": "graph",
+      "content": "公司 --[RELATED_TO]--> 测试用差旅制度 (Concept): 公司差旅管理制度",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "客户资料能导出吗？",
+      "type": "graph",
+      "content": "客户资料 --[RELATED_TO]--> 离职员工 (Concept): 离开公司的员工",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "客户资料能导出吗？",
+      "type": "graph",
+      "content": "客户资料 --[RELATED_TO]--> 销售 (Person): 只能访问负责客户的资料的人员",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "客户资料能导出吗？",
+      "type": "graph",
+      "content": "客户资料 --[PART_OF]--> CRM (Technology): 客户关系管理系统，用于统一录入客户资料",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "客户资料能导出吗？",
+      "type": "graph",
+      "content": "客户资料 --[RELATED_TO]--> 客户分组 (Concept): 按客户进行的分组",
+      "score": 0.8624999999999999
+    },
+    {
+      "q": "客户资料能导出吗？",
+      "type": "graph",
+      "content": "客户资料 --[RELATED_TO]--> 岗位角色 (Concept): 员工的岗位角色",
+      "score": 0.8624999999999999
+    }
+  ]
+}

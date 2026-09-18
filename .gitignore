@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────────────────────────
+#  AgentKnowledgeHub .gitignore
+#  原则：只提交 源码 / 文档 / 评测集；运行时状态与本地数据一律不进仓库
+# ─────────────────────────────────────────────────────────────
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── 密钥（永远不要提交）──────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# ── 运行时状态与本地数据 ─────────────────────────────────────
+# SQLite（文档状态机 / 对话历史 / 审计）—— 运行时会重建
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+python/data/
+
+# 上传的原始文档（服务端生成 UUID 文件名，属本地数据）
+uploads/
+python/uploads/
+
+# 向量库（约 40MB，本地重建；换 embedding 模型时本来也必须重建）
+chroma_data/
+chroma_data_v2/
+chroma_data_backup/
+python/chroma_data*/
+
+# ── 外部数据集（体积大，可重新下载）─────────────────────────
+# 只保留 data/README.md 与 data/eval/（评测集与评测结果）
+# 注意：必须写成 `data/*` 再逐项取反。
+# 直接写 `data/` 会让 git **根本不下沉**到该目录，`!data/eval/` 不会生效。
+data/*
+!data/README.md
+!data/eval/
+data/conceptnet_zh/
+data/huatuo_qa/
+data/backup/
+
+# ── 日志 ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── 编辑器 / 系统 ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

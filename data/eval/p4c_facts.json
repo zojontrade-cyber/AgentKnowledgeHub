@@ -1,0 +1,522 @@
+[
+  {
+    "doc": "差旅报销管理规定",
+    "section": "2. 差旅申请",
+    "fact_type": "requirement",
+    "condition": "出差前",
+    "value": "在 OA 系统提交出差申请，注明目的地、事由、行程和预算",
+    "unit": "",
+    "quote": "出差前应在 OA 系统提交出差申请，注明目的地、事由、行程和预算。",
+    "display": "出差前：在 OA 系统提交出差申请，注明目的地、事由、行程和预算"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "2. 差旅申请",
+    "fact_type": "requirement",
+    "condition": "预订交通和酒店",
+    "value": "出差申请获批后方可预订",
+    "unit": "",
+    "quote": "出差申请获批后，方可预订交通和酒店；未经审批产生的费用原则上不予报销。",
+    "display": "预订交通和酒店：出差申请获批后方可预订"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "2. 差旅申请",
+    "fact_type": "prohibition",
+    "condition": "未经审批产生的费用",
+    "value": "原则上不予报销",
+    "unit": "",
+    "quote": "未经审批产生的费用原则上不予报销。",
+    "display": "未经审批产生的费用：原则上不予报销"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "一线城市住宿",
+    "value": "500",
+    "unit": "元/晚",
+    "quote": "| 一线城市 | 500 | 100 | 150 |",
+    "display": "一线城市住宿：500元/晚"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "一线城市市内交通",
+    "value": "100",
+    "unit": "元/天",
+    "quote": "| 一线城市 | 500 | 100 | 150 |",
+    "display": "一线城市市内交通：100元/天"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "一线城市餐补",
+    "value": "150",
+    "unit": "元/天",
+    "quote": "| 一线城市 | 500 | 100 | 150 |",
+    "display": "一线城市餐补：150元/天"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "省会城市住宿",
+    "value": "400",
+    "unit": "元/晚",
+    "quote": "| 省会城市 | 400 | 80 | 120 |",
+    "display": "省会城市住宿：400元/晚"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "省会城市市内交通",
+    "value": "80",
+    "unit": "元/天",
+    "quote": "| 省会城市 | 400 | 80 | 120 |",
+    "display": "省会城市市内交通：80元/天"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "省会城市餐补",
+    "value": "120",
+    "unit": "元/天",
+    "quote": "| 省会城市 | 400 | 80 | 120 |",
+    "display": "省会城市餐补：120元/天"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "其他城市住宿",
+    "value": "300",
+    "unit": "元/晚",
+    "quote": "| 其他城市 | 300 | 60 | 100 |",
+    "display": "其他城市住宿：300元/晚"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "其他城市市内交通",
+    "value": "60",
+    "unit": "元/天",
+    "quote": "| 其他城市 | 300 | 60 | 100 |",
+    "display": "其他城市市内交通：60元/天"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "rate",
+    "condition": "其他城市餐补",
+    "value": "100",
+    "unit": "元/天",
+    "quote": "| 其他城市 | 300 | 60 | 100 |",
+    "display": "其他城市餐补：100元/天"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "requirement",
+    "condition": "同性别两人同行",
+    "value": "合住一间",
+    "unit": "",
+    "quote": "同性别两人同行应合住一间，特殊情况需说明。",
+    "display": "同性别两人同行：合住一间"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "requirement",
+    "condition": "同性别两人同行特殊情况",
+    "value": "需说明",
+    "unit": "",
+    "quote": "同性别两人同行应合住一间，特殊情况需说明。",
+    "display": "同性别两人同行特殊情况：需说明"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "requirement",
+    "condition": "默认交通标准",
+    "value": "高铁二等座、飞机经济舱",
+    "unit": "",
+    "quote": "高铁二等座、飞机经济舱为默认标准，超出部分由员工自行承担，特殊情况经分管领导审批。",
+    "display": "默认交通标准：高铁二等座、飞机经济舱"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "requirement",
+    "condition": "超出默认交通标准",
+    "value": "超出部分由员工自行承担",
+    "unit": "",
+    "quote": "高铁二等座、飞机经济舱为默认标准，超出部分由员工自行承担，特殊情况经分管领导审批。",
+    "display": "超出默认交通标准：超出部分由员工自行承担"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "3. 费用标准",
+    "fact_type": "requirement",
+    "condition": "超出默认交通标准特殊情况",
+    "value": "经分管领导审批",
+    "unit": "",
+    "quote": "高铁二等座、飞机经济舱为默认标准，超出部分由员工自行承担，特殊情况经分管领导审批。",
+    "display": "超出默认交通标准特殊情况：经分管领导审批"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "4. 报销流程",
+    "fact_type": "deadline",
+    "condition": "出差结束后提交报销单",
+    "value": "10",
+    "unit": "个工作日",
+    "quote": "出差结束后 10 个工作日内提交报销单，附行程单、发票和审批记录。",
+    "display": "出差结束后提交报销单：10个工作日"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "4. 报销流程",
+    "fact_type": "requirement",
+    "condition": "提交报销单时",
+    "value": "附行程单、发票和审批记录",
+    "unit": "",
+    "quote": "出差结束后 10 个工作日内提交报销单，附行程单、发票和审批记录。",
+    "display": "提交报销单时：附行程单、发票和审批记录"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "4. 报销流程",
+    "fact_type": "sequence",
+    "condition": "报销单审核",
+    "value": "先由部门负责人确认业务真实性，再由财务部审核票据合规性",
+    "unit": "",
+    "quote": "报销单先由部门负责人确认业务真实性，再由财务部审核票据合规性。",
+    "display": "报销单审核：先由部门负责人确认业务真实性，再由财务部审核票据合规性"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "4. 报销流程",
+    "fact_type": "deadline",
+    "condition": "财务审核通过后发放款项",
+    "value": "7",
+    "unit": "个工作日",
+    "quote": "财务审核通过后，款项于 7 个工作日内发放至员工工资卡。",
+    "display": "财务审核通过后发放款项：7个工作日"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "5. 发票要求",
+    "fact_type": "requirement",
+    "condition": "发票抬头",
+    "value": "公司全称和统一社会信用代码",
+    "unit": "",
+    "quote": "发票抬头应为公司全称和统一社会信用代码，开具内容与出差事项一致。",
+    "display": "发票抬头：公司全称和统一社会信用代码"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "5. 发票要求",
+    "fact_type": "requirement",
+    "condition": "发票开具内容",
+    "value": "与出差事项一致",
+    "unit": "",
+    "quote": "发票抬头应为公司全称和统一社会信用代码，开具内容与出差事项一致。",
+    "display": "发票开具内容：与出差事项一致"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "5. 发票要求",
+    "fact_type": "requirement",
+    "condition": "电子发票",
+    "value": "提供电子文件",
+    "unit": "",
+    "quote": "电子发票需提供电子文件，纸质发票需保存原件，丢失不补报。",
+    "display": "电子发票：提供电子文件"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "5. 发票要求",
+    "fact_type": "requirement",
+    "condition": "纸质发票",
+    "value": "保存原件",
+    "unit": "",
+    "quote": "电子发票需提供电子文件，纸质发票需保存原件，丢失不补报。",
+    "display": "纸质发票：保存原件"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "5. 发票要求",
+    "fact_type": "prohibition",
+    "condition": "发票丢失",
+    "value": "不补报",
+    "unit": "",
+    "quote": "电子发票需提供电子文件，纸质发票需保存原件，丢失不补报。",
+    "display": "发票丢失：不补报"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "5. 发票要求",
+    "fact_type": "prohibition",
+    "condition": "虚开发票、重复报销等行为",
+    "value": "按员工行为规范严肃处理",
+    "unit": "",
+    "quote": "虚开发票、重复报销等行为按员工行为规范严肃处理。",
+    "display": "虚开发票、重复报销等行为：按员工行为规范严肃处理"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "6. 特殊情况",
+    "fact_type": "prohibition",
+    "condition": "客户承担费用的部分",
+    "value": "不得重复报销",
+    "unit": "",
+    "quote": "客户承担费用的部分不得重复报销，报销单备注栏应注明。",
+    "display": "客户承担费用的部分：不得重复报销"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "6. 特殊情况",
+    "fact_type": "requirement",
+    "condition": "客户承担费用的部分",
+    "value": "报销单备注栏应注明",
+    "unit": "",
+    "quote": "客户承担费用的部分不得重复报销，报销单备注栏应注明。",
+    "display": "客户承担费用的部分：报销单备注栏应注明"
+  },
+  {
+    "doc": "差旅报销管理规定",
+    "section": "6. 特殊情况",
+    "fact_type": "requirement",
+    "condition": "因公邀请外部人员产生的费用",
+    "value": "需在报销单中列明人员身份",
+    "unit": "",
+    "quote": "因公邀请外部人员产生的费用，需在报销单中列明人员身份。",
+    "display": "因公邀请外部人员产生的费用：需在报销单中列明人员身份"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "2. 加班原则",
+    "fact_type": "requirement",
+    "condition": "因工作需要确需加班",
+    "value": "必须事先申请并获批",
+    "unit": "",
+    "quote": "因工作需要确需加班的，必须事先申请并获批。",
+    "display": "因工作需要确需加班：必须事先申请并获批"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "2. 加班原则",
+    "fact_type": "threshold",
+    "condition": "加班累计单位",
+    "value": "半小时",
+    "unit": "",
+    "quote": "加班以半小时为单位累计",
+    "display": "加班累计单位：半小时"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "2. 加班原则",
+    "fact_type": "threshold",
+    "condition": "每日加班",
+    "value": "3",
+    "unit": "小时",
+    "quote": "每日加班原则上不超过 3 小时",
+    "display": "每日加班：3小时"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "2. 加班原则",
+    "fact_type": "threshold",
+    "condition": "每月累计加班",
+    "value": "36",
+    "unit": "小时",
+    "quote": "每月累计不超过 36 小时",
+    "display": "每月累计加班：36小时"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "3. 申请流程",
+    "fact_type": "deadline",
+    "condition": "工作日加班",
+    "value": "2",
+    "unit": "小时",
+    "quote": "工作日加班须在下班前 2 小时提交申请",
+    "display": "工作日加班：2小时"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "3. 申请流程",
+    "fact_type": "deadline",
+    "condition": "周末和法定节假日加班",
+    "value": "1",
+    "unit": "个工作日",
+    "quote": "周末和法定节假日加班须提前 1 个工作日申请",
+    "display": "周末和法定节假日加班：1个工作日"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "3. 申请流程",
+    "fact_type": "requirement",
+    "condition": "普通员工加班审批",
+    "value": "直属主管审批",
+    "unit": "",
+    "quote": "普通员工由直属主管审批",
+    "display": "普通员工加班审批：直属主管审批"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "3. 申请流程",
+    "fact_type": "requirement",
+    "condition": "主管及以上加班审批",
+    "value": "部门负责人审批",
+    "unit": "",
+    "quote": "主管及以上由部门负责人审批",
+    "display": "主管及以上加班审批：部门负责人审批"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "3. 申请流程",
+    "fact_type": "prohibition",
+    "condition": "未经批准自行延时",
+    "value": "不计入加班",
+    "unit": "",
+    "quote": "未经批准自行延时的，不计入加班",
+    "display": "未经批准自行延时：不计入加班"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "4. 调休规则",
+    "fact_type": "sequence",
+    "condition": "工作日加班",
+    "value": "优先安排调休",
+    "unit": "",
+    "quote": "工作日加班优先安排调休，调休在加班发生后 3 个月内安排完成。",
+    "display": "工作日加班：优先安排调休"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "4. 调休规则",
+    "fact_type": "deadline",
+    "condition": "工作日加班后的调休",
+    "value": "3",
+    "unit": "个月",
+    "quote": "工作日加班优先安排调休，调休在加班发生后 3 个月内安排完成。",
+    "display": "工作日加班后的调休：3个月"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "4. 调休规则",
+    "fact_type": "requirement",
+    "condition": "周末加班",
+    "value": "可申请调休或加班费",
+    "unit": "",
+    "quote": "周末加班可申请调休或加班费，法定节假日加班按法规支付加班费。",
+    "display": "周末加班：可申请调休或加班费"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "4. 调休规则",
+    "fact_type": "requirement",
+    "condition": "法定节假日加班",
+    "value": "按法规支付加班费",
+    "unit": "",
+    "quote": "周末加班可申请调休或加班费，法定节假日加班按法规支付加班费。",
+    "display": "法定节假日加班：按法规支付加班费"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "4. 调休规则",
+    "fact_type": "prohibition",
+    "condition": "调休审批通过后",
+    "value": "不可再次申请加班费",
+    "unit": "",
+    "quote": "调休审批通过后，原加班记录标记为已调休，不可再次申请加班费。",
+    "display": "调休审批通过后：不可再次申请加班费"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "5. 加班费计算",
+    "fact_type": "rate",
+    "condition": "工作日延长工作时间",
+    "value": "150",
+    "unit": "%",
+    "quote": "工作日延长工作时间按本人小时工资的 150% 支付",
+    "display": "工作日延长工作时间：150%"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "5. 加班费计算",
+    "fact_type": "rate",
+    "condition": "周末加班",
+    "value": "200",
+    "unit": "%",
+    "quote": "周末按 200%",
+    "display": "周末加班：200%"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "5. 加班费计算",
+    "fact_type": "rate",
+    "condition": "法定节假日加班",
+    "value": "300",
+    "unit": "%",
+    "quote": "法定节假日按 300%",
+    "display": "法定节假日加班：300%"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "5. 加班费计算",
+    "fact_type": "requirement",
+    "condition": "小时工资计算",
+    "value": "按劳动合同约定的月工资基数计算",
+    "unit": "",
+    "quote": "小时工资按劳动合同约定的月工资基数计算。",
+    "display": "小时工资计算：按劳动合同约定的月工资基数计算"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "5. 加班费计算",
+    "fact_type": "prohibition",
+    "condition": "实行不定时工作制的岗位",
+    "value": "不适用周末加班费",
+    "unit": "",
+    "quote": "实行不定时工作制的岗位不适用周末加班费，具体按劳动合同约定。",
+    "display": "实行不定时工作制的岗位：不适用周末加班费"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "6. 记录与监督",
+    "fact_type": "requirement",
+    "condition": "加班考勤记录",
+    "value": "系统打卡和加班申请单双重记录",
+    "unit": "",
+    "quote": "加班考勤以系统打卡和加班申请单双重记录为准。",
+    "display": "加班考勤记录：系统打卡和加班申请单双重记录"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "6. 记录与监督",
+    "fact_type": "deadline",
+    "condition": "核对加班数据",
+    "value": "每月",
+    "unit": "",
+    "quote": "人力资源部每月核对加班数据，发现虚报的按行为规范处理。",
+    "display": "核对加班数据：每月"
+  },
+  {
+    "doc": "加班管理制度",
+    "section": "6. 记录与监督",
+    "fact_type": "prohibition",
+    "condition": "加班数据虚报",
+    "value": "按行为规范处理",
+    "unit": "",
+    "quote": "发现虚报的按行为规范处理。",
+    "display": "加班数据虚报：按行为规范处理"
+  }
+]

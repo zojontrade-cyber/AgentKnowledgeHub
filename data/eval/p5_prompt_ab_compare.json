@@ -1,0 +1,162 @@
+{
+  "legacy": {
+    "n": 54,
+    "recall@5": 1.0,
+    "faithfulness": 0.8888888888888888,
+    "answer_correctness": 1.0,
+    "citation_correctness": 0.8,
+    "refusal_rate": 1.0,
+    "hallucination_rate": 0.0,
+    "avg_scores": {
+      "faithfulness": 4.5777777777777775,
+      "correctness": 5.0,
+      "citation_correctness": 4.444444444444445
+    },
+    "cache": {
+      "prompt_tokens": 157331,
+      "completion_tokens": 15541,
+      "cache_hit_tokens": 122745,
+      "cache_miss_tokens": 34586,
+      "cache_hit_rate": 0.7801704686298314,
+      "stable_prefix_tokens": 4392,
+      "context_tokens": 121855,
+      "query_tokens": 780,
+      "stable_prefix_reuse_rate": 1.0,
+      "rag_context_reuse_rate": 0.9712609248697223,
+      "llm_calls": 162
+    },
+    "by_stage": {
+      "intent": {
+        "calls": 54,
+        "prompt": 24133,
+        "hit": 13824,
+        "miss": 10309
+      },
+      "rewrite": {
+        "calls": 54,
+        "prompt": 5125,
+        "hit": 0,
+        "miss": 5125
+      },
+      "generate": {
+        "calls": 54,
+        "prompt": 128073,
+        "hit": 108921,
+        "miss": 19152
+      }
+    },
+    "recall_by_type": {
+      "single": [
+        9,
+        9
+      ],
+      "multi": [
+        9,
+        9
+      ],
+      "multihop": [
+        9,
+        9
+      ],
+      "summary": [
+        9,
+        9
+      ],
+      "compare": [
+        9,
+        9
+      ]
+    },
+    "mode": "legacy",
+    "passes": [
+      {
+        "pass": 1,
+        "cache_hit_rate": 0.7801704686298314,
+        "hit": 122745,
+        "prompt": 157331,
+        "stable": 4392,
+        "context": 121855
+      }
+    ]
+  },
+  "stable": {
+    "n": 54,
+    "recall@5": 1.0,
+    "faithfulness": 0.9777777777777777,
+    "answer_correctness": 1.0,
+    "citation_correctness": 0.9555555555555556,
+    "refusal_rate": 1.0,
+    "hallucination_rate": 0.0,
+    "avg_scores": {
+      "faithfulness": 4.933333333333334,
+      "correctness": 5.0,
+      "citation_correctness": 4.844444444444444
+    },
+    "cache": {
+      "prompt_tokens": 162689,
+      "completion_tokens": 13549,
+      "cache_hit_tokens": 36608,
+      "cache_miss_tokens": 126081,
+      "cache_hit_rate": 0.22501828642379018,
+      "stable_prefix_tokens": 12138,
+      "context_tokens": 118368,
+      "query_tokens": 1302,
+      "stable_prefix_reuse_rate": 1.0,
+      "rag_context_reuse_rate": 0.20672816977561503,
+      "llm_calls": 162
+    },
+    "by_stage": {
+      "intent": {
+        "calls": 54,
+        "prompt": 24133,
+        "hit": 13824,
+        "miss": 10309
+      },
+      "rewrite": {
+        "calls": 54,
+        "prompt": 5125,
+        "hit": 0,
+        "miss": 5125
+      },
+      "generate": {
+        "calls": 54,
+        "prompt": 133431,
+        "hit": 22784,
+        "miss": 110647
+      }
+    },
+    "recall_by_type": {
+      "single": [
+        9,
+        9
+      ],
+      "multi": [
+        9,
+        9
+      ],
+      "multihop": [
+        9,
+        9
+      ],
+      "summary": [
+        9,
+        9
+      ],
+      "compare": [
+        9,
+        9
+      ]
+    },
+    "mode": "stable",
+    "passes": [
+      {
+        "pass": 1,
+        "cache_hit_rate": 0.22501828642379018,
+        "hit": 36608,
+        "prompt": 162689,
+        "stable": 12138,
+        "context": 118368
+      }
+    ]
+  }
+}

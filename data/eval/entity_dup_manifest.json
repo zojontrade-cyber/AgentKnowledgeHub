@@ -1,0 +1,740 @@
+{
+  "total_nodes": 794,
+  "dup_groups": 38,
+  "norm_only": [
+    {
+      "key": "10个工作日",
+      "members": [
+        {
+          "name": "10个工作日",
+          "type": "Time",
+          "desc": "出差结束后提交报销单的时限",
+          "src": "uploads\\测试用差旅制度.md",
+          "cid": null
+        },
+        {
+          "name": "10 个工作日",
+          "type": "Time",
+          "desc": "申诉提交时限和普通申诉处理时限",
+          "src": "uploads\\YQ-INST-020-员工申诉与沟通制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "企业IM",
+      "members": [
+        {
+          "name": "企业 IM",
+          "type": "Technology",
+          "desc": "远程办公时需保持可联系的即时通讯工具",
+          "src": "uploads\\YQ-INST-001-员工考勤管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "企业IM",
+          "type": "Product",
+          "desc": "远程办公期间需保持在线的工作沟通工具",
+          "src": "uploads\\YQ-INST-018-远程办公管理办法.md",
+          "cid": null
+        }
+      ]
+    }
+  ],
+  "same_type_same_cid": [],
+  "same_type_diff_cid": [
+    {
+      "key": "供应商",
+      "members": [
+        {
+          "name": "供应商",
+          "type": "Organization",
+          "desc": "向云启科技提供货物或服务的外部组织",
+          "src": "uploads\\YQ-INST-023-供应商管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "供应商",
+          "type": "Organization",
+          "desc": "提供产品或服务的组织",
+          "src": "uploads\\测试用供应商制度(2).md",
+          "cid": "ent_84162e7bf0177f72"
+        }
+      ]
+    },
+    {
+      "key": "营业执照",
+      "members": [
+        {
+          "name": "营业执照",
+          "type": "Concept",
+          "desc": "企业合法经营的凭证",
+          "src": "uploads\\测试用供应商制度(2).md",
+          "cid": "ent_7c55eb235e364996"
+        },
+        {
+          "name": "营业执照",
+          "type": "Concept",
+          "desc": "新供应商准入需提交的资质文件之一",
+          "src": "uploads\\YQ-INST-023-供应商管理制度.md",
+          "cid": null
+        }
+      ]
+    }
+  ],
+  "type_conflict": [
+    {
+      "key": "绩效评估",
+      "members": [
+        {
+          "name": "绩效评估",
+          "type": "Event",
+          "desc": "每半年对核心供应商进行的绩效评估活动",
+          "src": "uploads\\YQ-INST-023-供应商管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "绩效评估",
+          "type": "Concept",
+          "desc": "每半年对核心供应商进行的评估",
+          "src": "uploads\\YQ-INST-023-供应商管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "绩效评估",
+          "type": "Event",
+          "desc": "对供应商进行的定期评估活动",
+          "src": "uploads\\测试用供应商制度(2).md",
+          "cid": "ent_a366c489a5861980"
+        }
+      ]
+    },
+    {
+      "key": "负责人",
+      "members": [
+        {
+          "name": "负责人",
+          "type": "Person",
+          "desc": "软件许可的负责人",
+          "src": "uploads\\YQ-INST-022-软件采购与许可管理规定.md",
+          "cid": null
+        },
+        {
+          "name": "负责人",
+          "type": "Concept",
+          "desc": "档案应添加的负责人信息",
+          "src": "uploads\\YQ-INST-013-保密管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "公章",
+      "members": [
+        {
+          "name": "公章",
+          "type": "Concept",
+          "desc": "印章类型",
+          "src": "uploads\\YQ-INST-024-合同管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "公章",
+          "type": "Product",
+          "desc": "公司印章类型",
+          "src": "uploads\\YQ-INST-016-印章与证照管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "合同专用章",
+      "members": [
+        {
+          "name": "合同专用章",
+          "type": "Concept",
+          "desc": "印章类型",
+          "src": "uploads\\YQ-INST-024-合同管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "合同专用章",
+          "type": "Product",
+          "desc": "公司印章类型",
+          "src": "uploads\\YQ-INST-016-印章与证照管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "知识库问答系统",
+      "members": [
+        {
+          "name": "知识库问答系统",
+          "type": "Product",
+          "desc": "本制度用于学习演示的系统",
+          "src": "uploads\\YQ-INST-024-合同管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "知识库问答系统",
+          "type": "Technology",
+          "desc": "本制度用于其学习演示",
+          "src": "uploads\\YQ-INST-017-会议室预订与使用规范.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "档案",
+      "members": [
+        {
+          "name": "档案",
+          "type": "Concept",
+          "desc": "公司收集、整理、保管、利用和销毁的对象",
+          "src": "uploads\\YQ-INST-025-档案管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "档案",
+          "type": "Unknown",
+          "desc": null,
+          "src": "uploads\\YQ-INST-013-保密管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "测试",
+      "members": [
+        {
+          "name": "测试",
+          "type": "Organization",
+          "desc": "负责确认上线的部门之一",
+          "src": "uploads\\YQ-INST-026-产品发布上线规范.md",
+          "cid": null
+        },
+        {
+          "name": "测试",
+          "type": "Concept",
+          "desc": "CI/CD 自动执行步骤",
+          "src": "uploads\\YQ-INST-027-研发代码管理规范.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "CI/CD",
+      "members": [
+        {
+          "name": "CI/CD",
+          "type": "Concept",
+          "desc": "持续集成/持续交付",
+          "src": "uploads\\YQ-INST-027-研发代码管理规范.md",
+          "cid": null
+        },
+        {
+          "name": "CI/CD",
+          "type": "Technology",
+          "desc": "持续集成与持续交付",
+          "src": "uploads\\YQ-INST-027-研发代码管理规范.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "销售",
+      "members": [
+        {
+          "name": "销售",
+          "type": "Person",
+          "desc": "只能访问负责客户的资料的人员",
+          "src": "uploads\\YQ-INST-029-客户资料管理规定.md",
+          "cid": null
+        },
+        {
+          "name": "销售",
+          "type": "Concept",
+          "desc": "销售岗位人员",
+          "src": "uploads\\YQ-INST-029-客户资料管理规定.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "导出文件",
+      "members": [
+        {
+          "name": "导出文件",
+          "type": "Product",
+          "desc": "导出的客户资料文件",
+          "src": "uploads\\YQ-INST-029-客户资料管理规定.md",
+          "cid": null
+        },
+        {
+          "name": "导出文件",
+          "type": "Concept",
+          "desc": "导出的数据文件",
+          "src": "uploads\\YQ-INST-014-数据安全管理细则.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "复盘报告",
+      "members": [
+        {
+          "name": "复盘报告",
+          "type": "Product",
+          "desc": "处置完成后编写的报告",
+          "src": "uploads\\YQ-INST-021-信息安全应急预案.md",
+          "cid": null
+        },
+        {
+          "name": "复盘报告",
+          "type": "Concept",
+          "desc": "事件处置后的报告",
+          "src": "uploads\\YQ-INST-005-信息安全管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "v1.3",
+      "members": [
+        {
+          "name": "v1.3",
+          "type": "Product",
+          "desc": "制度版本号",
+          "src": "uploads\\YQ-INST-001-员工考勤管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "v1.3",
+          "type": "Concept",
+          "desc": "文档版本",
+          "src": "uploads\\YQ-INST-006-固定资产管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "OA系统",
+      "members": [
+        {
+          "name": "OA系统",
+          "type": "Product",
+          "desc": "用于提交年假申请的信息系统",
+          "src": "uploads\\YQ-INST-002-年休假管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "OA系统",
+          "type": "Technology",
+          "desc": "用于提交出差申请的信息系统",
+          "src": "uploads\\YQ-INST-003-差旅报销管理规定.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "新版本",
+      "members": [
+        {
+          "name": "新版本",
+          "type": "Product",
+          "desc": "修订后发布的新版本制度",
+          "src": "uploads\\YQ-INST-029-客户资料管理规定.md",
+          "cid": null
+        },
+        {
+          "name": "新版本",
+          "type": "Concept",
+          "desc": "修订后发布的新版本制度",
+          "src": "uploads\\YQ-INST-011-劳动合同管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "申请与审批",
+      "members": [
+        {
+          "name": "申请与审批",
+          "type": "Concept",
+          "desc": "年假申请和审批流程",
+          "src": "uploads\\YQ-INST-002-年休假管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "申请与审批",
+          "type": "Event",
+          "desc": "年假申请与审批的流程",
+          "src": "uploads\\YQ-INST-002-年休假管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "修订",
+      "members": [
+        {
+          "name": "修订",
+          "type": "Concept",
+          "desc": "对营情况变化的修改",
+          "src": "uploads\\YQ-INST-027-研发代码管理规范.md",
+          "cid": null
+        },
+        {
+          "name": "修订",
+          "type": "Event",
+          "desc": "对规定进行修改的行为",
+          "src": "uploads\\YQ-INST-005-信息安全管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "审批",
+      "members": [
+        {
+          "name": "审批",
+          "type": "Concept",
+          "desc": "对修订的审核批准",
+          "src": "uploads\\YQ-INST-027-研发代码管理规范.md",
+          "cid": null
+        },
+        {
+          "name": "审批",
+          "type": "Event",
+          "desc": "对修订进行审核批准的过程",
+          "src": "uploads\\YQ-INST-005-信息安全管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "审批记录",
+      "members": [
+        {
+          "name": "审批记录",
+          "type": "Product",
+          "desc": "报销时需附上的审批记录",
+          "src": "uploads\\测试用差旅制度.md",
+          "cid": null
+        },
+        {
+          "name": "审批记录",
+          "type": "Concept",
+          "desc": "不得伪造的审批文件",
+          "src": "uploads\\YQ-INST-010-员工行为规范.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "源代码",
+      "members": [
+        {
+          "name": "源代码",
+          "type": "Concept",
+          "desc": "敏感数据之一",
+          "src": "uploads\\YQ-INST-005-信息安全管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "源代码",
+          "type": "Product",
+          "desc": "机密密级示例",
+          "src": "uploads\\YQ-INST-013-保密管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "资产系统",
+      "members": [
+        {
+          "name": "资产系统",
+          "type": "Technology",
+          "desc": "用于办理资产变更手续的系统",
+          "src": "uploads\\YQ-INST-006-固定资产管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "资产系统",
+          "type": "Product",
+          "desc": "用于办理设备变更手续的信息系统",
+          "src": "uploads\\YQ-INST-006-固定资产管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "背景调查",
+      "members": [
+        {
+          "name": "背景调查",
+          "type": "Concept",
+          "desc": "候选人背景核实",
+          "src": "uploads\\YQ-INST-007-招聘管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "背景调查",
+          "type": "Event",
+          "desc": "HR对拟录用人员进行的背景核实",
+          "src": "uploads\\YQ-INST-007-招聘管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "录用审批",
+      "members": [
+        {
+          "name": "录用审批",
+          "type": "Concept",
+          "desc": "录用决策流程",
+          "src": "uploads\\YQ-INST-007-招聘管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "录用审批",
+          "type": "Event",
+          "desc": "确定拟录用人员后的审批流程",
+          "src": "uploads\\YQ-INST-007-招聘管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "综合面试",
+      "members": [
+        {
+          "name": "综合面试",
+          "type": "Concept",
+          "desc": "综合评估面试环节",
+          "src": "uploads\\YQ-INST-007-招聘管理制度.md",
+          "cid": null
+        },
+        {
+          "name": "综合面试",
+          "type": "Event",
+          "desc": "面试环节，技术岗位至少一轮综合面试，非技术岗位至少两轮",
+          "src": "uploads\\YQ-INST-007-招聘管理制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "HR",
+      "members": [
+        {
+          "name": "HR",
+          "type": "Organization",
+          "desc": "人力资源部门，负责组织申诉调查",
+          "src": "uploads\\YQ-INST-020-员工申诉与沟通制度.md",
+          "cid": null
+        },
+        {
+          "name": "HR",
+          "type": "Person",
+          "desc": "负责人力资源管理的人员",
+          "src": "uploads\\YQ-INST-011-劳动合同管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "考核结果",
+      "members": [
+        {
+          "name": "考核结果",
+          "type": "Unknown",
+          "desc": null,
+          "src": "uploads\\YQ-INST-009-绩效考核制度.md",
+          "cid": null
+        },
+        {
+          "name": "考核结果",
+          "type": "Concept",
+          "desc": "员工可提出申诉的事项之一",
+          "src": "uploads\\YQ-INST-020-员工申诉与沟通制度.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "工作交接",
+      "members": [
+        {
+          "name": "工作交接",
+          "type": "Concept",
+          "desc": "离职时的工作移交",
+          "src": "uploads\\YQ-INST-011-劳动合同管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "工作交接",
+          "type": "Event",
+          "desc": "离职时的工作交接流程",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "资产归还",
+      "members": [
+        {
+          "name": "资产归还",
+          "type": "Concept",
+          "desc": "离职时归还公司资产",
+          "src": "uploads\\YQ-INST-011-劳动合同管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "资产归还",
+          "type": "Event",
+          "desc": "离职时的资产归还流程",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "权限回收",
+      "members": [
+        {
+          "name": "权限回收",
+          "type": "Concept",
+          "desc": "离职时收回系统权限",
+          "src": "uploads\\YQ-INST-011-劳动合同管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "权限回收",
+          "type": "Event",
+          "desc": "离职前回收各类权限的流程",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "薪酬系统",
+      "members": [
+        {
+          "name": "薪酬系统",
+          "type": "Product",
+          "desc": "用于线上查看工资条的系统",
+          "src": "uploads\\YQ-INST-012-薪酬福利管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "薪酬系统",
+          "type": "Technology",
+          "desc": "用于线上查看工资条的系统",
+          "src": "uploads\\YQ-INST-012-薪酬福利管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "系统账号",
+      "members": [
+        {
+          "name": "系统账号",
+          "type": "Product",
+          "desc": "需要回收的系统访问账号",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "系统账号",
+          "type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "门禁",
+      "members": [
+        {
+          "name": "门禁",
+          "type": "Product",
+          "desc": "需要回收的门禁权限",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "门禁",
+          "type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "钥匙",
+      "members": [
+        {
+          "name": "钥匙",
+          "type": "Product",
+          "desc": "需要回收的物理钥匙",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "钥匙",
+          "type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "邮箱",
+      "members": [
+        {
+          "name": "邮箱",
+          "type": "Product",
+          "desc": "需要回收的邮箱账号",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "邮箱",
+          "type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    },
+    {
+      "key": "云资源",
+      "members": [
+        {
+          "name": "云资源",
+          "type": "Product",
+          "desc": "需要回收的云服务资源",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        },
+        {
+          "name": "云资源",
+          "type": "Concept",
+          "desc": "需要回收的权限资源之一",
+          "src": "uploads\\YQ-INST-019-离职交接管理办法.md",
+          "cid": null
+        }
+      ]
+    }
+  ]
+}

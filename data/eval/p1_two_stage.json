@@ -1,0 +1,350 @@
+{
+  "detail": [
+    {
+      "question": "上班时间是几点到几点？",
+      "gold_doc": "员工考勤管理制度",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 5,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 999
+    },
+    {
+      "question": "请假要走什么流程？",
+      "gold_doc": "员工考勤管理制度",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "外勤要提前报备吗？",
+      "gold_doc": "员工考勤管理制度",
+      "gold_idx": 4,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 3
+    },
+    {
+      "question": "年假有多少天？",
+      "gold_doc": "年休假管理办法",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 999
+    },
+    {
+      "question": "年假要提前多久申请？",
+      "gold_doc": "年休假管理办法",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "年假没休完能跨年吗？",
+      "gold_doc": "年休假管理办法",
+      "gold_idx": 5,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 2
+    },
+    {
+      "question": "出差住宿费能报多少？",
+      "gold_doc": "差旅报销管理规定",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 2
+    },
+    {
+      "question": "出差回来多久内要报销？",
+      "gold_doc": "差旅报销管理规定",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 2,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 999
+    },
+    {
+      "question": "保密级别分几级？",
+      "gold_doc": "保密管理制度",
+      "gold_idx": 1,
+      "flat_doc_rank": 2,
+      "flat_chunk_rank": 2,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 5
+    },
+    {
+      "question": "加班费怎么算？",
+      "gold_doc": "加班管理制度",
+      "gold_idx": 4,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 2,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 2
+    },
+    {
+      "question": "加班要提前申请吗？",
+      "gold_doc": "加班管理制度",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 4
+    },
+    {
+      "question": "用印要走什么流程？",
+      "gold_doc": "印章与证照管理制度",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "劳动合同一般签几年？",
+      "gold_doc": "劳动合同管理办法",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 4
+    },
+    {
+      "question": "工资几号发？",
+      "gold_doc": "薪酬福利管理办法",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "离职要交接哪些内容？",
+      "gold_doc": "离职交接管理办法",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 5
+    },
+    {
+      "question": "招聘有哪些渠道？",
+      "gold_doc": "招聘管理制度",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "培训费用能报销吗？",
+      "gold_doc": "员工培训管理制度",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "绩效多久考核一次？",
+      "gold_doc": "绩效考核制度",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 4
+    },
+    {
+      "question": "对绩效结果不满意怎么办？",
+      "gold_doc": "员工申诉与沟通制度",
+      "gold_idx": 3,
+      "flat_doc_rank": 9,
+      "flat_chunk_rank": 999,
+      "ts_doc_rank": 3,
+      "ts_chunk_rank": 4
+    },
+    {
+      "question": "数据分了哪几个级别？",
+      "gold_doc": "数据安全管理细则",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 3,
+      "ts_chunk_rank": 4
+    },
+    {
+      "question": "发生安全事件怎么处置？",
+      "gold_doc": "信息安全应急预案",
+      "gold_idx": 3,
+      "flat_doc_rank": 2,
+      "flat_chunk_rank": 2,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 2
+    },
+    {
+      "question": "软件的许可证怎么管理？",
+      "gold_doc": "软件采购与许可管理规定",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 3,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 999
+    },
+    {
+      "question": "用开源代码要注意什么？",
+      "gold_doc": "软件采购与许可管理规定",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "新供应商怎么准入？",
+      "gold_doc": "供应商管理制度",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "固定资产报废怎么处理？",
+      "gold_doc": "固定资产管理制度",
+      "gold_idx": 5,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "固定资产多久盘点一次？",
+      "gold_doc": "固定资产管理制度",
+      "gold_idx": 4,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "哪些文件要归档？",
+      "gold_doc": "档案管理办法",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "档案怎么借阅？",
+      "gold_doc": "档案管理办法",
+      "gold_idx": 4,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "上线前要谁审批？",
+      "gold_doc": "产品发布上线规范",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 4
+    },
+    {
+      "question": "代码提交有什么要求？",
+      "gold_doc": "研发代码管理规范",
+      "gold_idx": 3,
+      "flat_doc_rank": 2,
+      "flat_chunk_rank": 3,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 3
+    },
+    {
+      "question": "代码评审怎么做？",
+      "gold_doc": "研发代码管理规范",
+      "gold_idx": 4,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "分支怎么管理？",
+      "gold_doc": "研发代码管理规范",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "客户资料能导出吗？",
+      "gold_doc": "客户资料管理规定",
+      "gold_idx": 4,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "办公用品怎么领？",
+      "gold_doc": "办公用品管理办法",
+      "gold_idx": 3,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 3
+    },
+    {
+      "question": "会议室预订后能取消吗？",
+      "gold_doc": "会议室预订与使用规范",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 2
+    },
+    {
+      "question": "技术变更分几级？",
+      "gold_doc": "技术变更管理办法",
+      "gold_idx": 1,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 3
+    },
+    {
+      "question": "工作时间能处理私事吗？",
+      "gold_doc": "员工行为规范",
+      "gold_idx": 1,
+      "flat_doc_rank": 2,
+      "flat_chunk_rank": 2,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 1
+    },
+    {
+      "question": "远程办公怎么申请？",
+      "gold_doc": "远程办公管理办法",
+      "gold_idx": 2,
+      "flat_doc_rank": 1,
+      "flat_chunk_rank": 1,
+      "ts_doc_rank": 1,
+      "ts_chunk_rank": 2
+    }
+  ],
+  "err_types": {
+    "错章节": 22,
+    "正确": 16
+  }
+}

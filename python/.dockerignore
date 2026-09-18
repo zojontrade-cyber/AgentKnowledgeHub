@@ -1,0 +1,45 @@
+# ── 凭据与数据 ───────────────────────────────────────────────
+# 绝不把密钥与运行数据打进镜像层
+.env
+.env.*
+!.env.example
+*.env
+
+# ── 运行数据 ─────────────────────────────────────────────────
+uploads/
+*.log
+logs/
+
+# ── Python 产物 ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── 版本控制与编辑器 ─────────────────────────────────────────
+.git/
+.gitignore
+.github/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ── 测试与文档 ───────────────────────────────────────────────
+tests/
+docs/
+*.md
+!requirements.txt

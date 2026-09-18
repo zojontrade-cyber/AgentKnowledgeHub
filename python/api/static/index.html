@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgentKnowledgeHub · 索引台</title>
+<meta name="description" content="AgentKnowledgeHub 企业知识中枢：基于 BM25 检索的企业知识问答，每条答案都可核验出处。">
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;600&display=swap">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<a class="skip" href="#ask-col">跳到主要内容</a>
+
+<div class="app">
+
+  <!-- ── 索引脊：导航 + 实时台账 + 系统状态 ────────────────── -->
+  <aside class="rail">
+    <div class="rail-mark">
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 19 7v10l-7 3.5L5 17V7l7-3.5Z"/><path d="m8.5 9.2 3.5 1.8 3.5-1.8M12 11v5.2"/></svg></span>
+      <div>
+        <b>AgentKnowledgeHub</b>
+        <small>企业知识中枢</small>
+      </div>
+    </div>
+
+    <nav class="rail-nav" aria-label="主导航">
+      <button type="button" data-view="chat" aria-current="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.8A2.8 2.8 0 0 1 7.8 3h8.4A2.8 2.8 0 0 1 19 5.8v7.4a2.8 2.8 0 0 1-2.8 2.8H11l-4.6 3v-3.3a2.8 2.8 0 0 1-1.4-2.5V5.8Z"/><path d="M8 8h8M8 11h5"/></svg>
+        <span>智能问答</span>
+      </button>
+      <button type="button" data-view="upload">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L8 8m4-4 4 4"/><path d="M5 13.5v4A2.5 2.5 0 0 0 7.5 20h9a2.5 2.5 0 0 0 2.5-2.5v-4"/></svg>
+        <span>知识入库</span>
+      </button>
+      <button type="button" data-view="overview">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h8L19 8.5v11.5a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5v-16a.5.5 0 0 1 .5-.5Z"/><path d="M14 3.5v5h5"/><path d="M9 12.5h6M9 16h4"/></svg>
+        <span>数据概览</span>
+      </button>
+    </nav>
+
+    <div class="ledger">
+      <div class="ledger-title">本工作区台账</div>
+      <dl>
+        <div class="ledger-row"><dt>文档</dt><dd id="lg-docs" class="is-empty">—</dd></div>
+        <div class="ledger-row"><dt><span class="full">向量块</span><span class="abbr">向量</span></dt><dd id="lg-vectors" class="is-empty">—</dd></div>
+      </dl>
+    </div>
+
+    <!-- 会话用量：轮次由服务端计号，会话 id 由客户端自有。
+         缓存命中率是「可测 Prompt Token 的命中占比」，不是调用次数比例。 -->
+    <div class="ledger" id="session-ledger">
+      <div class="ledger-title">本次会话</div>
+      <dl>
+        <div class="ledger-row"><dt>对话轮数</dt><dd id="lg-turns" class="is-empty">—</dd></div>
+        <div class="ledger-row"><dt><span class="full">累计 Tokens</span><span class="abbr">Tokens</span></dt><dd id="lg-tokens" class="is-empty">—</dd></div>
+        <div class="ledger-row"><dt>缓存命中</dt><dd id="lg-cache" class="is-empty" title="按可测 Prompt Token 计算：Hit / (Hit + Miss)">—</dd></div>
+      </dl>
+    </div>
+
+    <p class="rail-status" id="rail-status"><span class="pip" aria-hidden="true"></span><span id="rail-status-text">正在检查服务</span></p>
+  </aside>
+
+  <!-- ── 台面 ──────────────────────────────────────────────── -->
+  <main class="stage">
+
+    <!-- 智能问答 -->
+    <section class="view is-flex" id="view-chat" aria-label="智能问答">
+      <div class="chat">
+        <div class="chat-main">
+          <div class="ask-scroll" id="ask-scroll">
+            <div class="ask-col" id="ask-col" tabindex="-1">
+              <div class="welcome" id="welcome">
+                <h2>向知识库提问</h2>
+                <p>系统用 BM25 检索企业制度与产品文档，再做 cross-encoder 精排。检索结果与分数都列在右侧「本次检索」里，可以逐条核验。</p>
+                <div class="trials" id="trials">
+                  <button type="button" data-q="本季度销售目标与实际完成度如何？">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                    <span>本季度销售目标与实际完成度如何？</span>
+                  </button>
+                  <button type="button" data-q="产品上线流程中有哪些关键审批节点？">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                    <span>产品上线流程中有哪些关键审批节点？</span>
+                  </button>
+                  <button type="button" data-q="市场团队与研发团队的协作关系是什么？">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                    <span>市场团队与研发团队的协作关系是什么？</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="composer" id="ask-form">
+            <div class="composer-inner">
+              <label class="skip" for="question">提问内容</label>
+              <textarea id="question" rows="1" placeholder="输入你的问题…" aria-describedby="composer-note"></textarea>
+              <button class="btn btn-primary" type="submit" id="ask-btn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 4 16 8-16 8 3-8-3-8Z"/><path d="M7 12h13"/></svg>
+                发送
+              </button>
+            </div>
+            <p class="composer-note" id="composer-note">Enter 发送，Shift + Enter 换行</p>
+          </form>
+        </div>
+
+        <aside class="prov" id="prov" aria-label="本次检索的出处">
+          <button class="prov-toggle" type="button" id="prov-toggle" aria-expanded="false" aria-controls="prov-body">
+            <span>本次检索</span>
+            <span class="n" id="prov-toggle-n">0</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+          </button>
+          <div class="prov-head">
+            <h2>本次检索</h2>
+            <p id="prov-summary">尚未提问</p>
+          </div>
+          <div class="prov-body" id="prov-body">
+            <p class="prov-empty">提问后，这里会按检索通道列出每一条出处：文件名、章节位置、块号，以及该通道在重排时的权重。</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 知识入库 -->
+    <section class="view" id="view-upload" aria-label="知识入库">
+      <div class="sheet">
+        <div class="sheet-head">
+          <h1>知识入库</h1>
+          <p>上传后文件先落盘登记，解析、抽取与建索引在后台进行，进度实时更新。</p>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head"><h2>上传文档</h2><span class="count">单文件 ≤ 20MB</span></div>
+          <div class="panel-body">
+            <button class="drop" type="button" id="drop">
+              <span class="drop-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 15V4m0 0L8 8m4-4 4 4"/><path d="M5 14v4.2A1.8 1.8 0 0 0 6.8 20h10.4a1.8 1.8 0 0 0 1.8-1.8V14"/></svg></span>
+              <strong>拖拽文件到这里，或点击选择</strong>
+              <span>支持 PDF、图片、Excel、CSV、纯文本、Markdown</span>
+            </button>
+            <input type="file" id="file-input" hidden multiple accept=".pdf,.png,.jpg,.jpeg,.xlsx,.xls,.csv,.txt,.md">
+            <ul class="ingest" id="ingest"></ul>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>已入库文档</h2>
+            <span class="count" id="doc-count">—</span>
+          </div>
+          <div class="panel-body is-flush" id="doc-list">
+            <p class="note"><span class="loader"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 数据概览 -->
+    <section class="view" id="view-overview" aria-label="数据概览">
+      <div class="sheet">
+        <div class="sheet-head">
+          <h1>数据概览</h1>
+          <p>知识资产规模、当前运行配置与各依赖服务状态。</p>
+        </div>
+
+        <dl class="book" id="book">
+          <div class="book-row"><dt>向量块</dt><dd id="ov-vectors">—</dd></div>
+          <div class="book-row"><dt>已上传文件</dt><dd id="ov-files">—</dd></div>
+        </dl>
+
+        <div class="cols">
+          <div class="panel">
+            <div class="panel-head"><h2>运行配置</h2></div>
+            <div class="panel-body"><dl class="defs" id="config"></dl></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head"><h2>系统信号</h2></div>
+            <div class="panel-body states" id="signals"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="/static/app.js" defer></script>
+</body>
+</html>

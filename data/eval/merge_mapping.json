@@ -1,0 +1,909 @@
+[
+  {
+    "key": "供应商",
+    "canonical_id": "ent_84162e7bf0177f72",
+    "display_name": "供应商",
+    "canonical_type": "Organization",
+    "raw_types": [
+      "Organization"
+    ],
+    "aliases": [
+      "供应商"
+    ],
+    "source_nodes": [
+      "YQ-INST-023-供应商管理制度.md",
+      "测试用供应商制度(2).md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75628",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75871"
+    ],
+    "member_names": [
+      "供应商",
+      "供应商"
+    ]
+  },
+  {
+    "key": "绩效评估",
+    "canonical_id": "ent_a366c489a5861980",
+    "display_name": "绩效评估",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "绩效评估"
+    ],
+    "source_nodes": [
+      "YQ-INST-023-供应商管理制度.md",
+      "测试用供应商制度(2).md"
+    ],
+    "source_node_count": 3,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75652",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75663",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75875"
+    ],
+    "member_names": [
+      "绩效评估",
+      "绩效评估",
+      "绩效评估"
+    ]
+  },
+  {
+    "key": "公章",
+    "canonical_id": "ent_24e2f120d040632b",
+    "display_name": "公章",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "公章"
+    ],
+    "source_nodes": [
+      "YQ-INST-016-印章与证照管理制度.md",
+      "YQ-INST-024-合同管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75683",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84853"
+    ],
+    "member_names": [
+      "公章",
+      "公章"
+    ]
+  },
+  {
+    "key": "合同专用章",
+    "canonical_id": "ent_2c1e136619b53a90",
+    "display_name": "合同专用章",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "合同专用章"
+    ],
+    "source_nodes": [
+      "YQ-INST-016-印章与证照管理制度.md",
+      "YQ-INST-024-合同管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75684",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84854"
+    ],
+    "member_names": [
+      "合同专用章",
+      "合同专用章"
+    ]
+  },
+  {
+    "key": "知识库问答系统",
+    "canonical_id": "ent_ecba65fc475b81a3",
+    "display_name": "知识库问答系统",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Product",
+      "Technology"
+    ],
+    "aliases": [
+      "知识库问答系统"
+    ],
+    "source_nodes": [
+      "YQ-INST-017-会议室预订与使用规范.md",
+      "YQ-INST-024-合同管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75692",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84535"
+    ],
+    "member_names": [
+      "知识库问答系统",
+      "知识库问答系统"
+    ]
+  },
+  {
+    "key": "档案",
+    "canonical_id": "ent_7f59fd4e46d5e662",
+    "display_name": "档案",
+    "canonical_type": "Concept",
+    "raw_types": [
+      "Concept",
+      "Unknown"
+    ],
+    "aliases": [
+      "档案"
+    ],
+    "source_nodes": [
+      "YQ-INST-013-保密管理制度.md",
+      "YQ-INST-025-档案管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75699",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84797"
+    ],
+    "member_names": [
+      "档案",
+      "档案"
+    ]
+  },
+  {
+    "key": "cicd",
+    "canonical_id": "ent_0b0aaf2f3938da22",
+    "display_name": "CI/CD",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Technology"
+    ],
+    "aliases": [
+      "CI/CD"
+    ],
+    "source_nodes": [
+      "YQ-INST-027-研发代码管理规范.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75766",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75779"
+    ],
+    "member_names": [
+      "CI/CD",
+      "CI/CD"
+    ]
+  },
+  {
+    "key": "导出文件",
+    "canonical_id": "ent_d2a505f802d18789",
+    "display_name": "导出文件",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "导出文件"
+    ],
+    "source_nodes": [
+      "YQ-INST-014-数据安全管理细则.md",
+      "YQ-INST-029-客户资料管理规定.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75825",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84827"
+    ],
+    "member_names": [
+      "导出文件",
+      "导出文件"
+    ]
+  },
+  {
+    "key": "复盘报告",
+    "canonical_id": "ent_cad78da41c54227a",
+    "display_name": "复盘报告",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "复盘报告"
+    ],
+    "source_nodes": [
+      "YQ-INST-005-信息安全管理办法.md",
+      "YQ-INST-021-信息安全应急预案.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75856",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84592"
+    ],
+    "member_names": [
+      "复盘报告",
+      "复盘报告"
+    ]
+  },
+  {
+    "key": "10个工作日",
+    "canonical_id": "ent_87bd70aff2a28b05",
+    "display_name": "10个工作日",
+    "canonical_type": "Time",
+    "raw_types": [
+      "Time"
+    ],
+    "aliases": [
+      "10 个工作日",
+      "10个工作日"
+    ],
+    "source_nodes": [
+      "YQ-INST-020-员工申诉与沟通制度.md",
+      "测试用差旅制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75870",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84536"
+    ],
+    "member_names": [
+      "10个工作日",
+      "10 个工作日"
+    ]
+  },
+  {
+    "key": "营业执照",
+    "canonical_id": "ent_7c55eb235e364996",
+    "display_name": "营业执照",
+    "canonical_type": "Concept",
+    "raw_types": [
+      "Concept"
+    ],
+    "aliases": [
+      "营业执照"
+    ],
+    "source_nodes": [
+      "YQ-INST-023-供应商管理制度.md",
+      "测试用供应商制度(2).md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:75872",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84869"
+    ],
+    "member_names": [
+      "营业执照",
+      "营业执照"
+    ]
+  },
+  {
+    "key": "v13",
+    "canonical_id": "ent_0c32b5a0e0a79076",
+    "display_name": "v1.3",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "v1.3"
+    ],
+    "source_nodes": [
+      "YQ-INST-001-员工考勤管理制度.md",
+      "YQ-INST-006-固定资产管理制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84443",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84600"
+    ],
+    "member_names": [
+      "v1.3",
+      "v1.3"
+    ]
+  },
+  {
+    "key": "企业im",
+    "canonical_id": "ent_6afa97984a527e2f",
+    "display_name": "企业 IM",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Product",
+      "Technology"
+    ],
+    "aliases": [
+      "企业 IM",
+      "企业IM"
+    ],
+    "source_nodes": [
+      "YQ-INST-001-员工考勤管理制度.md",
+      "YQ-INST-018-远程办公管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84451",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84895"
+    ],
+    "member_names": [
+      "企业 IM",
+      "企业IM"
+    ]
+  },
+  {
+    "key": "oa系统",
+    "canonical_id": "ent_84950486167654b6",
+    "display_name": "OA系统",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Product",
+      "Technology"
+    ],
+    "aliases": [
+      "OA系统"
+    ],
+    "source_nodes": [
+      "YQ-INST-002-年休假管理办法.md",
+      "YQ-INST-003-差旅报销管理规定.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84468",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84514"
+    ],
+    "member_names": [
+      "OA系统",
+      "OA系统"
+    ]
+  },
+  {
+    "key": "新版本",
+    "canonical_id": "ent_94d204e864244f7c",
+    "display_name": "新版本",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "新版本"
+    ],
+    "source_nodes": [
+      "YQ-INST-011-劳动合同管理办法.md",
+      "YQ-INST-029-客户资料管理规定.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84491",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84741"
+    ],
+    "member_names": [
+      "新版本",
+      "新版本"
+    ]
+  },
+  {
+    "key": "申请与审批",
+    "canonical_id": "ent_dc08e9b2adbafff2",
+    "display_name": "申请与审批",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "申请与审批"
+    ],
+    "source_nodes": [
+      "YQ-INST-002-年休假管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84502",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84505"
+    ],
+    "member_names": [
+      "申请与审批",
+      "申请与审批"
+    ]
+  },
+  {
+    "key": "修订",
+    "canonical_id": "ent_784af2c70aa3811c",
+    "display_name": "修订",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "修订"
+    ],
+    "source_nodes": [
+      "YQ-INST-005-信息安全管理办法.md",
+      "YQ-INST-027-研发代码管理规范.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84510",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84595"
+    ],
+    "member_names": [
+      "修订",
+      "修订"
+    ]
+  },
+  {
+    "key": "审批",
+    "canonical_id": "ent_8442f39cef119ce0",
+    "display_name": "审批",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "审批"
+    ],
+    "source_nodes": [
+      "YQ-INST-005-信息安全管理办法.md",
+      "YQ-INST-027-研发代码管理规范.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84511",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84596"
+    ],
+    "member_names": [
+      "审批",
+      "审批"
+    ]
+  },
+  {
+    "key": "审批记录",
+    "canonical_id": "ent_f15b395ee56b56aa",
+    "display_name": "审批记录",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "审批记录"
+    ],
+    "source_nodes": [
+      "YQ-INST-010-员工行为规范.md",
+      "测试用差旅制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84527",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84717"
+    ],
+    "member_names": [
+      "审批记录",
+      "审批记录"
+    ]
+  },
+  {
+    "key": "源代码",
+    "canonical_id": "ent_daa9deaf30ccb6c5",
+    "display_name": "源代码",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "源代码"
+    ],
+    "source_nodes": [
+      "YQ-INST-005-信息安全管理办法.md",
+      "YQ-INST-013-保密管理制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84574",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84778"
+    ],
+    "member_names": [
+      "源代码",
+      "源代码"
+    ]
+  },
+  {
+    "key": "资产系统",
+    "canonical_id": "ent_8a9ddcb240564220",
+    "display_name": "资产系统",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Product",
+      "Technology"
+    ],
+    "aliases": [
+      "资产系统"
+    ],
+    "source_nodes": [
+      "YQ-INST-006-固定资产管理制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84606",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84609"
+    ],
+    "member_names": [
+      "资产系统",
+      "资产系统"
+    ]
+  },
+  {
+    "key": "背景调查",
+    "canonical_id": "ent_3451facf25fac937",
+    "display_name": "背景调查",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "背景调查"
+    ],
+    "source_nodes": [
+      "YQ-INST-007-招聘管理制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84628",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84651"
+    ],
+    "member_names": [
+      "背景调查",
+      "背景调查"
+    ]
+  },
+  {
+    "key": "录用审批",
+    "canonical_id": "ent_ea1f0c0e6fa94d3c",
+    "display_name": "录用审批",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "录用审批"
+    ],
+    "source_nodes": [
+      "YQ-INST-007-招聘管理制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84629",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84647"
+    ],
+    "member_names": [
+      "录用审批",
+      "录用审批"
+    ]
+  },
+  {
+    "key": "综合面试",
+    "canonical_id": "ent_51d7202f626e19b3",
+    "display_name": "综合面试",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "综合面试"
+    ],
+    "source_nodes": [
+      "YQ-INST-007-招聘管理制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84638",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84644"
+    ],
+    "member_names": [
+      "综合面试",
+      "综合面试"
+    ]
+  },
+  {
+    "key": "考核结果",
+    "canonical_id": "ent_dd2233251416ae55",
+    "display_name": "考核结果",
+    "canonical_type": "Concept",
+    "raw_types": [
+      "Concept",
+      "Unknown"
+    ],
+    "aliases": [
+      "考核结果"
+    ],
+    "source_nodes": [
+      "YQ-INST-009-绩效考核制度.md",
+      "YQ-INST-020-员工申诉与沟通制度.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84703",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84936"
+    ],
+    "member_names": [
+      "考核结果",
+      "考核结果"
+    ]
+  },
+  {
+    "key": "工作交接",
+    "canonical_id": "ent_77203c1bf530734b",
+    "display_name": "工作交接",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "工作交接"
+    ],
+    "source_nodes": [
+      "YQ-INST-011-劳动合同管理办法.md",
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84736",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84921"
+    ],
+    "member_names": [
+      "工作交接",
+      "工作交接"
+    ]
+  },
+  {
+    "key": "资产归还",
+    "canonical_id": "ent_b42eb5527b3e47a5",
+    "display_name": "资产归还",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "资产归还"
+    ],
+    "source_nodes": [
+      "YQ-INST-011-劳动合同管理办法.md",
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84737",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84922"
+    ],
+    "member_names": [
+      "资产归还",
+      "资产归还"
+    ]
+  },
+  {
+    "key": "权限回收",
+    "canonical_id": "ent_2bdd372c6ac2fd20",
+    "display_name": "权限回收",
+    "canonical_type": "Event",
+    "raw_types": [
+      "Concept",
+      "Event"
+    ],
+    "aliases": [
+      "权限回收"
+    ],
+    "source_nodes": [
+      "YQ-INST-011-劳动合同管理办法.md",
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84738",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84919"
+    ],
+    "member_names": [
+      "权限回收",
+      "权限回收"
+    ]
+  },
+  {
+    "key": "薪酬系统",
+    "canonical_id": "ent_4e5ab4ac8761b30a",
+    "display_name": "薪酬系统",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Product",
+      "Technology"
+    ],
+    "aliases": [
+      "薪酬系统"
+    ],
+    "source_nodes": [
+      "YQ-INST-012-薪酬福利管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84751",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84757"
+    ],
+    "member_names": [
+      "薪酬系统",
+      "薪酬系统"
+    ]
+  },
+  {
+    "key": "系统账号",
+    "canonical_id": "ent_f106d00ecdcd3c27",
+    "display_name": "系统账号",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "系统账号"
+    ],
+    "source_nodes": [
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84912",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84924"
+    ],
+    "member_names": [
+      "系统账号",
+      "系统账号"
+    ]
+  },
+  {
+    "key": "门禁",
+    "canonical_id": "ent_6a581d6f0a6a4a3f",
+    "display_name": "门禁",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "门禁"
+    ],
+    "source_nodes": [
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84913",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84925"
+    ],
+    "member_names": [
+      "门禁",
+      "门禁"
+    ]
+  },
+  {
+    "key": "钥匙",
+    "canonical_id": "ent_3aac8455b99e4cbd",
+    "display_name": "钥匙",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "钥匙"
+    ],
+    "source_nodes": [
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84914",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84926"
+    ],
+    "member_names": [
+      "钥匙",
+      "钥匙"
+    ]
+  },
+  {
+    "key": "邮箱",
+    "canonical_id": "ent_0e41c4e98b0ecff1",
+    "display_name": "邮箱",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "邮箱"
+    ],
+    "source_nodes": [
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84915",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84927"
+    ],
+    "member_names": [
+      "邮箱",
+      "邮箱"
+    ]
+  },
+  {
+    "key": "云资源",
+    "canonical_id": "ent_0dca1ba79d39337f",
+    "display_name": "云资源",
+    "canonical_type": "Artifact",
+    "raw_types": [
+      "Concept",
+      "Product"
+    ],
+    "aliases": [
+      "云资源"
+    ],
+    "source_nodes": [
+      "YQ-INST-019-离职交接管理办法.md"
+    ],
+    "source_node_count": 2,
+    "merge_reason": "same_normalized_name+compatible_type",
+    "member_eids": [
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84916",
+      "4:12a2afbd-da5b-462a-92e5-626b64e05511:84928"
+    ],
+    "member_names": [
+      "云资源",
+      "云资源"
+    ]
+  }
+]

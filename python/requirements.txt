@@ -1,0 +1,16 @@
+# ⚠️ 本文件保留用于向后兼容，但**生产构建不应直接使用它**。
+#
+# 原因：本文件只声明直接依赖，间接依赖由 pip 在构建时即时解析，
+# 导致同一份代码在不同日期构建出不同依赖树（langchain/langgraph 生态
+# 迭代频繁，0.x 版本常有 breaking change）——构建不可复现、无法回滚、
+# 漏洞扫描结论不可信。
+#
+# 正确做法：
+#   - 直接依赖的「意图」写在  requirements.in
+#   - 完整锁定版本写在        requirements.lock   ← 生产构建使用这个
+#   - 更新锁定：pip install pip-tools && pip-compile --output-file=requirements.lock requirements.in
+#   - 需要 hash 级校验：pip-compile --generate-hashes --output-file=requirements.lock requirements.in
+#
+# Dockerfile 会优先使用 requirements.lock；找不到时才回落到本文件并打印警告。
+
+-r requirements.in
